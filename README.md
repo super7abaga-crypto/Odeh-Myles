@@ -5,7 +5,7 @@ fundamentals — loops, conditionals, randomness, and command-line arguments.
 
 # Scripts
 
-I_Guess.py — Number Guessing Game
+# I_Guess.py — Number Guessing Game
 
 The computer picks a secret number between 1 and 100, and you try to guess
 it. After each guess, it tells you "Higher!" or "Lower!" until you find it.
@@ -14,7 +14,7 @@ it. After each guess, it tells you "Higher!" or "Lower!" until you find it.
 python3 I_Guess.py
 ```
 
-YouGuess.py — Computer Guesses Your Number
+# YouGuess.py — Computer Guesses Your Number
 
 Flips the roles: you think of a number, and the computer guesses it using
 *binary search* — always guessing the midpoint of the remaining possible
