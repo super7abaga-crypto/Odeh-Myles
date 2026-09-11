@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Football Predictor Dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="app">
+    <header class="app__header">
+      <h1>Football Predictor</h1>
+      <p class="app__subtitle">Elo-based match predictions, built from real results</p>
+    </header>
+
+    <nav class="tabs">
+      <button class="tab active" data-tab="predict">Predict a match</button>
+      <button class="tab" data-tab="ratings">Team ratings</button>
+      <button class="tab" data-tab="upcoming">Upcoming fixtures</button>
+    </nav>
+
+    <!-- Predict tab -->
+    <section id="tab-predict" class="tab-panel active">
+      <form id="predict-form" class="predict-form">
+        <div class="field">
+          <label for="home-select">Home team</label>
+          <select id="home-select" required></select>
+        </div>
+        <div class="field">
+          <label for="away-select">Away team</label>
+          <select id="away-select" required></select>
+        </div>
+        <button type="submit">Predict</button>
+      </form>
+
+      <div id="predict-result" class="predict-result" hidden></div>
+    </section>
+
+    <!-- Ratings tab -->
+    <section id="tab-ratings" class="tab-panel">
+      <table class="ratings-table">
+        <thead>
+          <tr><th>#</th><th>Team</th><th>Rating</th></tr>
+        </thead>
+        <tbody id="ratings-body"></tbody>
+      </table>
+    </section>
+
+    <!-- Upcoming tab -->
+    <section id="tab-upcoming" class="tab-panel">
+      <form id="upcoming-form" class="upcoming-form">
+        <div class="field">
+          <label for="competition-select">Competition</label>
+          <select id="competition-select">
+            <option value="PL">Premier League</option>
+            <option value="PD">La Liga</option>
+            <option value="BL1">Bundesliga</option>
+            <option value="SA">Serie A</option>
+            <option value="FL1">Ligue 1</option>
+            <option value="DED">Eredivisie</option>
+            <option value="PPL">Primeira Liga</option>
+            <option value="ELC">Championship</option>
+            <option value="BSA">Brasileirão</option>
+            <option value="CL">Champions League</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="date-from">From</label>
+          <input type="date" id="date-from" required />
+        </div>
+        <div class="field">
+          <label for="date-to">To</label>
+          <input type="date" id="date-to" required />
+        </div>
+        <button type="submit">Find fixtures</button>
+      </form>
+
+      <div id="upcoming-status" class="upcoming-status"></div>
+      <div id="upcoming-results" class="upcoming-results"></div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
