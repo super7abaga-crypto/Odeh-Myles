@@ -1,54 +1,42 @@
-# Football Predictor Dashboard
+# Odeh-Myles
 
-A web dashboard for the Elo-based football predictor — reuses `elo.py`,
-`storage.py`, and `live_data.py` completely unchanged from the CLI
-version, with a new FastAPI layer and browser frontend on top.
+A collection of small Python scripts, built while learning core programming
+fundamentals — loops, conditionals, randomness, and command-line arguments.
 
-## Setup
+# Scripts
+
+# I_Guess.py — Number Guessing Game
+
+The computer picks a secret number between 1 and 100, and you try to guess
+it. After each guess, it tells you "Higher!" or "Lower!" until you find it.
 
 ```bash
-cd backend
-python3 -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
+python3 I_Guess.py
 ```
 
-Copy your existing `ratings.json` (from your `football_predictor` CLI
-project) into this `backend/` folder, so the dashboard starts with your
-real, already-earned ratings instead of an empty file.
+# YouGuess.py — Computer Guesses Your Number
 
-Set your football-data.org API key as an environment variable (needed
-for the "Upcoming fixtures" tab):
+Flips the roles: you think of a number, and the computer guesses it using
+*binary search* — always guessing the midpoint of the remaining possible
+range, so it never needs more than 7 guesses for a number between 1 and 100.
+
 ```bash
-export FOOTBALL_DATA_API_KEY=your_key_here
+python3 YouGuess.py
 ```
+Answer each guess with `h` (too high), `l` (too low), or `c` (correct).
 
-Run the backend:
+# PassGen.py — Random Password Generator
+
+Generates cryptographically random passwords using Python's `secrets`
+module (not `random`, which isn't safe for anything security-related).
+
 ```bash
-uvicorn main:app --reload
+python3 PassGen.py                   # 16 chars, letters + digits + symbols
+python3 PassGen.py  --length 24      # custom length
+python3 PassGen.py  --no-symbols     # letters and digits only
+python3 PassGen.py  --count 5        # generate multiple at once
 ```
 
-Open `frontend/index.html` in your browser.
+# Requirements
 
-## Features
-
-- **Predict a match** — pick any two teams from dropdowns (populated from
-  your real ratings), see win/draw/loss probabilities as bar charts.
-- **Team ratings** — a full sortable table of every team's current rating.
-- **Upcoming fixtures** — pick a competition and date range, see every
-  scheduled (not-yet-played) match automatically predicted — the same
-  logic as the CLI's `upcoming` command, exposed as a web endpoint.
-
-## Architecture
-
-This project's whole point is reuse: `elo.py` (the math), `storage.py`
-(JSON persistence), and `live_data.py` (the football-data.org connector)
-are copied unchanged from the CLI project. `backend/main.py` is the only
-new code on the backend — it's a thin FastAPI layer that calls the exact
-same functions the CLI commands call, just returning JSON over HTTP
-instead of printing to a terminal. This is a common real-world pattern:
-separating core logic from the interface (CLI vs. web) that drives it.
-
-## Requirements
-
-Python 3, a browser, a free football-data.org API key for live fixtures.
+Python 3 — no external packages needed for any of these scripts.
