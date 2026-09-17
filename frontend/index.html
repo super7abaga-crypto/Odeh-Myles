@@ -16,14 +16,16 @@
     </header>
 
     <nav class="tabs">
-      <button class="tab active" data-tab="predict">Predict a match</button>
-      <button class="tab" data-tab="ratings">Team ratings</button>
-      <button class="tab" data-tab="upcoming">Upcoming fixtures</button>
+      <button class="tab active" data-tab="predict">Predict</button>
+      <button class="tab" data-tab="ratings">Ratings</button>
+      <button class="tab" data-tab="upcoming">Upcoming</button>
+      <button class="tab" data-tab="history">History</button>
+      <button class="tab" data-tab="h2h">Head-to-head</button>
     </nav>
 
     <!-- Predict tab -->
     <section id="tab-predict" class="tab-panel active">
-      <form id="predict-form" class="predict-form">
+      <form id="predict-form" class="card-form">
         <div class="field">
           <label for="home-select">Home team</label>
           <select id="home-select" required></select>
@@ -35,7 +37,7 @@
         <button type="submit">Predict</button>
       </form>
 
-      <div id="predict-result" class="predict-result" hidden></div>
+      <div id="predict-result" class="result-card" hidden></div>
     </section>
 
     <!-- Ratings tab -->
@@ -50,7 +52,7 @@
 
     <!-- Upcoming tab -->
     <section id="tab-upcoming" class="tab-panel">
-      <form id="upcoming-form" class="upcoming-form">
+      <form id="upcoming-form" class="card-form">
         <div class="field">
           <label for="competition-select">Competition</label>
           <select id="competition-select">
@@ -75,10 +77,47 @@
           <input type="date" id="date-to" required />
         </div>
         <button type="submit">Find fixtures</button>
+        <label class="checkbox-field">
+          <input type="checkbox" id="upcoming-autorefresh" />
+          Auto-refresh every 60s
+        </label>
       </form>
 
-      <div id="upcoming-status" class="upcoming-status"></div>
-      <div id="upcoming-results" class="upcoming-results"></div>
+      <div id="upcoming-status" class="status-line"></div>
+      <div id="upcoming-results" class="fixture-list"></div>
+    </section>
+
+    <!-- History tab -->
+    <section id="tab-history" class="tab-panel">
+      <form id="history-form" class="card-form">
+        <div class="field">
+          <label for="history-team-select">Team</label>
+          <select id="history-team-select" required></select>
+        </div>
+        <button type="submit">Show rating history</button>
+      </form>
+
+      <div id="history-status" class="status-line"></div>
+      <div id="history-chart" class="chart-card"></div>
+    </section>
+
+    <!-- Head-to-head tab -->
+    <section id="tab-h2h" class="tab-panel">
+      <form id="h2h-form" class="card-form">
+        <div class="field">
+          <label for="h2h-team-a">Team A</label>
+          <select id="h2h-team-a" required></select>
+        </div>
+        <div class="field">
+          <label for="h2h-team-b">Team B</label>
+          <select id="h2h-team-b" required></select>
+        </div>
+        <button type="submit">Compare</button>
+      </form>
+
+      <div id="h2h-status" class="status-line"></div>
+      <div id="h2h-prediction" class="result-card" hidden></div>
+      <div id="h2h-meetings" class="fixture-list"></div>
     </section>
   </main>
 
