@@ -1,0 +1,2502 @@
+[
+  {
+    "match_id": 560542,
+    "date": "2026-08-21",
+    "competition": "PL",
+    "home_team": "Arsenal FC",
+    "away_team": "Coventry City FC",
+    "result": "home_win",
+    "home_rating_after": 1967.3,
+    "away_rating_after": 1469.6
+  },
+  {
+    "match_id": 560543,
+    "date": "2026-08-22",
+    "competition": "PL",
+    "home_team": "Hull City AFC",
+    "away_team": "Manchester United FC",
+    "result": "home_win",
+    "home_rating_after": 1537.8,
+    "away_rating_after": 1491.4
+  },
+  {
+    "match_id": 560544,
+    "date": "2026-08-22",
+    "competition": "PL",
+    "home_team": "Ipswich Town FC",
+    "away_team": "Sunderland AFC",
+    "result": "home_win",
+    "home_rating_after": 1509.6,
+    "away_rating_after": 1489.0
+  },
+  {
+    "match_id": 560545,
+    "date": "2026-08-22",
+    "competition": "PL",
+    "home_team": "Nottingham Forest FC",
+    "away_team": "Leeds United FC",
+    "result": "away_win",
+    "home_rating_after": 1477.1,
+    "away_rating_after": 1531.9
+  },
+  {
+    "match_id": 560546,
+    "date": "2026-08-22",
+    "competition": "PL",
+    "home_team": "Everton FC",
+    "away_team": "Crystal Palace FC",
+    "result": "home_win",
+    "home_rating_after": 1523.6,
+    "away_rating_after": 1475.8
+  },
+  {
+    "match_id": 560547,
+    "date": "2026-08-22",
+    "competition": "PL",
+    "home_team": "Brentford FC",
+    "away_team": "Tottenham Hotspur FC",
+    "result": "home_win",
+    "home_rating_after": 1524.1,
+    "away_rating_after": 1462.6
+  },
+  {
+    "match_id": 560548,
+    "date": "2026-08-23",
+    "competition": "PL",
+    "home_team": "Manchester City FC",
+    "away_team": "AFC Bournemouth",
+    "result": "home_win",
+    "home_rating_after": 1567.8,
+    "away_rating_after": 1479.5
+  },
+  {
+    "match_id": 560549,
+    "date": "2026-08-23",
+    "competition": "PL",
+    "home_team": "Brighton & Hove Albion FC",
+    "away_team": "Aston Villa FC",
+    "result": "home_win",
+    "home_rating_after": 1512.3,
+    "away_rating_after": 1492.0
+  },
+  {
+    "match_id": 560550,
+    "date": "2026-08-23",
+    "competition": "PL",
+    "home_team": "Newcastle United FC",
+    "away_team": "Liverpool FC",
+    "result": "draw",
+    "home_rating_after": 1536.2,
+    "away_rating_after": 1918.0
+  },
+  {
+    "match_id": 560551,
+    "date": "2026-08-24",
+    "competition": "PL",
+    "home_team": "Fulham FC",
+    "away_team": "Chelsea FC",
+    "result": "away_win",
+    "home_rating_after": 1439.6,
+    "away_rating_after": 1541.2
+  },
+  {
+    "match_id": 560555,
+    "date": "2026-08-28",
+    "competition": "PL",
+    "home_team": "Crystal Palace FC",
+    "away_team": "Manchester City FC",
+    "result": "away_win",
+    "home_rating_after": 1463.4,
+    "away_rating_after": 1580.2
+  },
+  {
+    "match_id": 560552,
+    "date": "2026-08-29",
+    "competition": "PL",
+    "home_team": "Liverpool FC",
+    "away_team": "Nottingham Forest FC",
+    "result": "draw",
+    "home_rating_after": 1904.9,
+    "away_rating_after": 1490.2
+  },
+  {
+    "match_id": 560560,
+    "date": "2026-08-29",
+    "competition": "PL",
+    "home_team": "AFC Bournemouth",
+    "away_team": "Everton FC",
+    "result": "draw",
+    "home_rating_after": 1480.1,
+    "away_rating_after": 1523.0
+  },
+  {
+    "match_id": 560561,
+    "date": "2026-08-29",
+    "competition": "PL",
+    "home_team": "Coventry City FC",
+    "away_team": "Hull City AFC",
+    "result": "away_win",
+    "home_rating_after": 1456.2,
+    "away_rating_after": 1551.2
+  },
+  {
+    "match_id": 560558,
+    "date": "2026-08-29",
+    "competition": "PL",
+    "home_team": "Tottenham Hotspur FC",
+    "away_team": "Newcastle United FC",
+    "result": "away_win",
+    "home_rating_after": 1449.5,
+    "away_rating_after": 1549.3
+  },
+  {
+    "match_id": 560554,
+    "date": "2026-08-30",
+    "competition": "PL",
+    "home_team": "Sunderland AFC",
+    "away_team": "Fulham FC",
+    "result": "home_win",
+    "home_rating_after": 1500.6,
+    "away_rating_after": 1428.0
+  },
+  {
+    "match_id": 560556,
+    "date": "2026-08-30",
+    "competition": "PL",
+    "home_team": "Chelsea FC",
+    "away_team": "Brighton & Hove Albion FC",
+    "result": "home_win",
+    "home_rating_after": 1553.7,
+    "away_rating_after": 1499.8
+  },
+  {
+    "match_id": 560559,
+    "date": "2026-08-30",
+    "competition": "PL",
+    "home_team": "Leeds United FC",
+    "away_team": "Brentford FC",
+    "result": "draw",
+    "home_rating_after": 1530.3,
+    "away_rating_after": 1525.7
+  },
+  {
+    "match_id": 560553,
+    "date": "2026-08-30",
+    "competition": "PL",
+    "home_team": "Manchester United FC",
+    "away_team": "Ipswich Town FC",
+    "result": "home_win",
+    "home_rating_after": 1505.9,
+    "away_rating_after": 1495.1
+  },
+  {
+    "match_id": 560557,
+    "date": "2026-08-31",
+    "competition": "PL",
+    "home_team": "Aston Villa FC",
+    "away_team": "Arsenal FC",
+    "result": "away_win",
+    "home_rating_after": 1489.9,
+    "away_rating_after": 1969.4
+  },
+  {
+    "match_id": 560566,
+    "date": "2026-09-04",
+    "competition": "PL",
+    "home_team": "Ipswich Town FC",
+    "away_team": "Liverpool FC",
+    "result": "away_win",
+    "home_rating_after": 1492.1,
+    "away_rating_after": 1907.9
+  },
+  {
+    "match_id": 560571,
+    "date": "2026-09-05",
+    "competition": "PL",
+    "home_team": "Newcastle United FC",
+    "away_team": "AFC Bournemouth",
+    "result": "draw",
+    "home_rating_after": 1545.1,
+    "away_rating_after": 1484.3
+  },
+  {
+    "match_id": 560562,
+    "date": "2026-09-05",
+    "competition": "PL",
+    "home_team": "Nottingham Forest FC",
+    "away_team": "Tottenham Hotspur FC",
+    "result": "draw",
+    "home_rating_after": 1487.2,
+    "away_rating_after": 1452.5
+  },
+  {
+    "match_id": 560563,
+    "date": "2026-09-05",
+    "competition": "PL",
+    "home_team": "Manchester City FC",
+    "away_team": "Coventry City FC",
+    "result": "home_win",
+    "home_rating_after": 1589.0,
+    "away_rating_after": 1447.4
+  },
+  {
+    "match_id": 560564,
+    "date": "2026-09-05",
+    "competition": "PL",
+    "home_team": "Brighton & Hove Albion FC",
+    "away_team": "Leeds United FC",
+    "result": "draw",
+    "home_rating_after": 1499.8,
+    "away_rating_after": 1530.3
+  },
+  {
+    "match_id": 560565,
+    "date": "2026-09-05",
+    "competition": "PL",
+    "home_team": "Brentford FC",
+    "away_team": "Sunderland AFC",
+    "result": "draw",
+    "home_rating_after": 1523.3,
+    "away_rating_after": 1503.0
+  },
+  {
+    "match_id": 560568,
+    "date": "2026-09-05",
+    "competition": "PL",
+    "home_team": "Fulham FC",
+    "away_team": "Crystal Palace FC",
+    "result": "away_win",
+    "home_rating_after": 1413.2,
+    "away_rating_after": 1478.2
+  },
+  {
+    "match_id": 560569,
+    "date": "2026-09-05",
+    "competition": "PL",
+    "home_team": "Hull City AFC",
+    "away_team": "Aston Villa FC",
+    "result": "draw",
+    "home_rating_after": 1547.3,
+    "away_rating_after": 1493.8
+  },
+  {
+    "match_id": 560567,
+    "date": "2026-09-06",
+    "competition": "PL",
+    "home_team": "Everton FC",
+    "away_team": "Manchester United FC",
+    "result": "draw",
+    "home_rating_after": 1521.0,
+    "away_rating_after": 1507.9
+  },
+  {
+    "match_id": 560570,
+    "date": "2026-09-06",
+    "competition": "PL",
+    "home_team": "Arsenal FC",
+    "away_team": "Chelsea FC",
+    "result": "home_win",
+    "home_rating_after": 1971.5,
+    "away_rating_after": 1551.6
+  },
+  {
+    "match_id": 560572,
+    "date": "2026-09-12",
+    "competition": "PL",
+    "home_team": "Crystal Palace FC",
+    "away_team": "Ipswich Town FC",
+    "result": "away_win",
+    "home_rating_after": 1462.5,
+    "away_rating_after": 1507.8
+  },
+  {
+    "match_id": 560573,
+    "date": "2026-09-12",
+    "competition": "PL",
+    "home_team": "Liverpool FC",
+    "away_team": "Fulham FC",
+    "result": "draw",
+    "home_rating_after": 1894.3,
+    "away_rating_after": 1426.8
+  },
+  {
+    "match_id": 560574,
+    "date": "2026-09-12",
+    "competition": "PL",
+    "home_team": "Aston Villa FC",
+    "away_team": "Nottingham Forest FC",
+    "result": "away_win",
+    "home_rating_after": 1477.2,
+    "away_rating_after": 1503.8
+  },
+  {
+    "match_id": 560576,
+    "date": "2026-09-12",
+    "competition": "PL",
+    "home_team": "AFC Bournemouth",
+    "away_team": "Brentford FC",
+    "result": "draw",
+    "home_rating_after": 1484.7,
+    "away_rating_after": 1522.9
+  },
+  {
+    "match_id": 560581,
+    "date": "2026-09-12",
+    "competition": "PL",
+    "home_team": "Chelsea FC",
+    "away_team": "Hull City AFC",
+    "result": "draw",
+    "home_rating_after": 1550.1,
+    "away_rating_after": 1548.8
+  },
+  {
+    "match_id": 560575,
+    "date": "2026-09-12",
+    "competition": "PL",
+    "home_team": "Tottenham Hotspur FC",
+    "away_team": "Everton FC",
+    "result": "draw",
+    "home_rating_after": 1454.2,
+    "away_rating_after": 1519.3
+  },
+  {
+    "match_id": 560577,
+    "date": "2026-09-12",
+    "competition": "PL",
+    "home_team": "Sunderland AFC",
+    "away_team": "Arsenal FC",
+    "result": "away_win",
+    "home_rating_after": 1500.8,
+    "away_rating_after": 1973.7
+  },
+  {
+    "match_id": 560578,
+    "date": "2026-09-13",
+    "competition": "PL",
+    "home_team": "Coventry City FC",
+    "away_team": "Brighton & Hove Albion FC",
+    "result": "away_win",
+    "home_rating_after": 1433.4,
+    "away_rating_after": 1513.8
+  },
+  {
+    "match_id": 560580,
+    "date": "2026-09-13",
+    "competition": "PL",
+    "home_team": "Manchester United FC",
+    "away_team": "Manchester City FC",
+    "result": "away_win",
+    "home_rating_after": 1495.1,
+    "away_rating_after": 1601.8
+  },
+  {
+    "match_id": 560579,
+    "date": "2026-09-14",
+    "competition": "PL",
+    "home_team": "Leeds United FC",
+    "away_team": "Newcastle United FC",
+    "result": "home_win",
+    "home_rating_after": 1544.6,
+    "away_rating_after": 1530.8
+  },
+  {
+    "match_id": 560591,
+    "date": "2026-09-18",
+    "competition": "PL",
+    "home_team": "Brentford FC",
+    "away_team": "Chelsea FC",
+    "result": "home_win",
+    "home_rating_after": 1537.8,
+    "away_rating_after": 1535.2
+  },
+  {
+    "match_id": 560587,
+    "date": "2026-09-19",
+    "competition": "PL",
+    "home_team": "Tottenham Hotspur FC",
+    "away_team": "Aston Villa FC",
+    "result": "away_win",
+    "home_rating_after": 1438.9,
+    "away_rating_after": 1492.5
+  },
+  {
+    "match_id": 560584,
+    "date": "2026-09-19",
+    "competition": "PL",
+    "home_team": "Everton FC",
+    "away_team": "Ipswich Town FC",
+    "result": "home_win",
+    "home_rating_after": 1532.5,
+    "away_rating_after": 1494.6
+  },
+  {
+    "match_id": 560586,
+    "date": "2026-09-19",
+    "competition": "PL",
+    "home_team": "Brighton & Hove Albion FC",
+    "away_team": "Arsenal FC",
+    "result": "home_win",
+    "home_rating_after": 1541.5,
+    "away_rating_after": 1946.0
+  },
+  {
+    "match_id": 560588,
+    "date": "2026-09-19",
+    "competition": "PL",
+    "home_team": "Newcastle United FC",
+    "away_team": "Hull City AFC",
+    "result": "home_win",
+    "home_rating_after": 1545.3,
+    "away_rating_after": 1534.3
+  },
+  {
+    "match_id": 560589,
+    "date": "2026-09-19",
+    "competition": "PL",
+    "home_team": "Nottingham Forest FC",
+    "away_team": "Coventry City FC",
+    "result": "away_win",
+    "home_rating_after": 1484.6,
+    "away_rating_after": 1452.6
+  },
+  {
+    "match_id": 560582,
+    "date": "2026-09-20",
+    "competition": "PL",
+    "home_team": "AFC Bournemouth",
+    "away_team": "Liverpool FC",
+    "result": "away_win",
+    "home_rating_after": 1481.7,
+    "away_rating_after": 1897.3
+  },
+  {
+    "match_id": 560585,
+    "date": "2026-09-20",
+    "competition": "PL",
+    "home_team": "Leeds United FC",
+    "away_team": "Crystal Palace FC",
+    "result": "draw",
+    "home_rating_after": 1539.9,
+    "away_rating_after": 1467.2
+  },
+  {
+    "match_id": 560590,
+    "date": "2026-09-20",
+    "competition": "PL",
+    "home_team": "Manchester City FC",
+    "away_team": "Sunderland AFC",
+    "result": "home_win",
+    "home_rating_after": 1611.4,
+    "away_rating_after": 1491.2
+  },
+  {
+    "match_id": 560583,
+    "date": "2026-09-20",
+    "competition": "PL",
+    "home_team": "Fulham FC",
+    "away_team": "Manchester United FC",
+    "result": "draw",
+    "home_rating_after": 1428.4,
+    "away_rating_after": 1493.5
+  },
+  {
+    "match_id": 564634,
+    "date": "2026-08-15",
+    "competition": "PD",
+    "home_team": "Deportivo Alav\u00e9s",
+    "away_team": "Getafe CF",
+    "result": "home_win",
+    "home_rating_after": 1550.0,
+    "away_rating_after": 1473.8
+  },
+  {
+    "match_id": 564633,
+    "date": "2026-08-15",
+    "competition": "PD",
+    "home_team": "Sevilla FC",
+    "away_team": "Rayo Vallecano de Madrid",
+    "result": "home_win",
+    "home_rating_after": 1525.4,
+    "away_rating_after": 1485.0
+  },
+  {
+    "match_id": 564629,
+    "date": "2026-08-16",
+    "competition": "PD",
+    "home_team": "Real Racing Club de Santander",
+    "away_team": "Villarreal CF",
+    "result": "draw",
+    "home_rating_after": 1482.6,
+    "away_rating_after": 1467.3
+  },
+  {
+    "match_id": 564632,
+    "date": "2026-08-16",
+    "competition": "PD",
+    "home_team": "RCD Espanyol de Barcelona",
+    "away_team": "Levante UD",
+    "result": "home_win",
+    "home_rating_after": 1494.6,
+    "away_rating_after": 1491.3
+  },
+  {
+    "match_id": 564635,
+    "date": "2026-08-17",
+    "competition": "PD",
+    "home_team": "RC Deportivo La Coru\u00f1a",
+    "away_team": "Elche CF",
+    "result": "draw",
+    "home_rating_after": 1524.3,
+    "away_rating_after": 1473.4
+  },
+  {
+    "match_id": 564628,
+    "date": "2026-08-19",
+    "competition": "PD",
+    "home_team": "Club Atl\u00e9tico de Madrid",
+    "away_team": "M\u00e1laga CF",
+    "result": "home_win",
+    "home_rating_after": 1524.1,
+    "away_rating_after": 1461.4
+  },
+  {
+    "match_id": 564638,
+    "date": "2026-08-20",
+    "competition": "PD",
+    "home_team": "Rayo Vallecano de Madrid",
+    "away_team": "Deportivo Alav\u00e9s",
+    "result": "draw",
+    "home_rating_after": 1486.5,
+    "away_rating_after": 1548.5
+  },
+  {
+    "match_id": 564647,
+    "date": "2026-08-21",
+    "competition": "PD",
+    "home_team": "Real Betis Balompi\u00e9",
+    "away_team": "Real Sociedad de F\u00fatbol",
+    "result": "home_win",
+    "home_rating_after": 1557.1,
+    "away_rating_after": 1491.7
+  },
+  {
+    "match_id": 564641,
+    "date": "2026-08-22",
+    "competition": "PD",
+    "home_team": "Athletic Club",
+    "away_team": "Sevilla FC",
+    "result": "away_win",
+    "home_rating_after": 1497.5,
+    "away_rating_after": 1541.2
+  },
+  {
+    "match_id": 564643,
+    "date": "2026-08-22",
+    "competition": "PD",
+    "home_team": "Valencia CF",
+    "away_team": "RC Celta de Vigo",
+    "result": "draw",
+    "home_rating_after": 1466.1,
+    "away_rating_after": 1474.9
+  },
+  {
+    "match_id": 564645,
+    "date": "2026-08-22",
+    "competition": "PD",
+    "home_team": "RCD Espanyol de Barcelona",
+    "away_team": "Real Madrid CF",
+    "result": "away_win",
+    "home_rating_after": 1480.3,
+    "away_rating_after": 1555.6
+  },
+  {
+    "match_id": 564646,
+    "date": "2026-08-23",
+    "competition": "PD",
+    "home_team": "Club Atl\u00e9tico de Madrid",
+    "away_team": "Villarreal CF",
+    "result": "draw",
+    "home_rating_after": 1520.4,
+    "away_rating_after": 1471.0
+  },
+  {
+    "match_id": 564644,
+    "date": "2026-08-23",
+    "competition": "PD",
+    "home_team": "Getafe CF",
+    "away_team": "Real Racing Club de Santander",
+    "result": "home_win",
+    "home_rating_after": 1487.9,
+    "away_rating_after": 1468.5
+  },
+  {
+    "match_id": 564642,
+    "date": "2026-08-23",
+    "competition": "PD",
+    "home_team": "Elche CF",
+    "away_team": "FC Barcelona",
+    "result": "away_win",
+    "home_rating_after": 1471.9,
+    "away_rating_after": 2010.6
+  },
+  {
+    "match_id": 564639,
+    "date": "2026-08-24",
+    "competition": "PD",
+    "home_team": "CA Osasuna",
+    "away_team": "Levante UD",
+    "result": "draw",
+    "home_rating_after": 1511.7,
+    "away_rating_after": 1493.6
+  },
+  {
+    "match_id": 564640,
+    "date": "2026-08-24",
+    "competition": "PD",
+    "home_team": "M\u00e1laga CF",
+    "away_team": "RC Deportivo La Coru\u00f1a",
+    "result": "draw",
+    "home_rating_after": 1462.8,
+    "away_rating_after": 1522.9
+  },
+  {
+    "match_id": 564637,
+    "date": "2026-08-25",
+    "competition": "PD",
+    "home_team": "Valencia CF",
+    "away_team": "Real Betis Balompi\u00e9",
+    "result": "away_win",
+    "home_rating_after": 1453.7,
+    "away_rating_after": 1569.5
+  },
+  {
+    "match_id": 564631,
+    "date": "2026-08-26",
+    "competition": "PD",
+    "home_team": "Real Madrid CF",
+    "away_team": "Real Sociedad de F\u00fatbol",
+    "result": "home_win",
+    "home_rating_after": 1566.6,
+    "away_rating_after": 1480.7
+  },
+  {
+    "match_id": 564636,
+    "date": "2026-08-27",
+    "competition": "PD",
+    "home_team": "RC Celta de Vigo",
+    "away_team": "CA Osasuna",
+    "result": "away_win",
+    "home_rating_after": 1460.2,
+    "away_rating_after": 1526.4
+  },
+  {
+    "match_id": 564630,
+    "date": "2026-08-27",
+    "competition": "PD",
+    "home_team": "FC Barcelona",
+    "away_team": "Athletic Club",
+    "result": "home_win",
+    "home_rating_after": 2011.9,
+    "away_rating_after": 1496.2
+  },
+  {
+    "match_id": 564654,
+    "date": "2026-08-28",
+    "competition": "PD",
+    "home_team": "Real Racing Club de Santander",
+    "away_team": "Elche CF",
+    "result": "home_win",
+    "home_rating_after": 1482.4,
+    "away_rating_after": 1458.0
+  },
+  {
+    "match_id": 564648,
+    "date": "2026-08-28",
+    "competition": "PD",
+    "home_team": "Deportivo Alav\u00e9s",
+    "away_team": "Villarreal CF",
+    "result": "home_win",
+    "home_rating_after": 1559.0,
+    "away_rating_after": 1460.5
+  },
+  {
+    "match_id": 564655,
+    "date": "2026-08-29",
+    "competition": "PD",
+    "home_team": "Levante UD",
+    "away_team": "Real Betis Balompi\u00e9",
+    "result": "home_win",
+    "home_rating_after": 1510.6,
+    "away_rating_after": 1552.5
+  },
+  {
+    "match_id": 564653,
+    "date": "2026-08-29",
+    "competition": "PD",
+    "home_team": "Real Sociedad de F\u00fatbol",
+    "away_team": "RCD Espanyol de Barcelona",
+    "result": "home_win",
+    "home_rating_after": 1494.4,
+    "away_rating_after": 1466.6
+  },
+  {
+    "match_id": 564649,
+    "date": "2026-08-29",
+    "competition": "PD",
+    "home_team": "Sevilla FC",
+    "away_team": "Club Atl\u00e9tico de Madrid",
+    "result": "away_win",
+    "home_rating_after": 1524.0,
+    "away_rating_after": 1537.6
+  },
+  {
+    "match_id": 564656,
+    "date": "2026-08-30",
+    "competition": "PD",
+    "home_team": "Real Madrid CF",
+    "away_team": "M\u00e1laga CF",
+    "result": "home_win",
+    "home_rating_after": 1576.1,
+    "away_rating_after": 1453.3
+  },
+  {
+    "match_id": 564651,
+    "date": "2026-08-30",
+    "competition": "PD",
+    "home_team": "RC Deportivo La Coru\u00f1a",
+    "away_team": "Valencia CF",
+    "result": "home_win",
+    "home_rating_after": 1533.7,
+    "away_rating_after": 1442.9
+  },
+  {
+    "match_id": 564652,
+    "date": "2026-08-30",
+    "competition": "PD",
+    "home_team": "RC Celta de Vigo",
+    "away_team": "Athletic Club",
+    "result": "away_win",
+    "home_rating_after": 1445.5,
+    "away_rating_after": 1510.9
+  },
+  {
+    "match_id": 564657,
+    "date": "2026-08-31",
+    "competition": "PD",
+    "home_team": "CA Osasuna",
+    "away_team": "Getafe CF",
+    "result": "home_win",
+    "home_rating_after": 1538.5,
+    "away_rating_after": 1475.8
+  },
+  {
+    "match_id": 564650,
+    "date": "2026-08-31",
+    "competition": "PD",
+    "home_team": "FC Barcelona",
+    "away_team": "Rayo Vallecano de Madrid",
+    "result": "home_win",
+    "home_rating_after": 2013.1,
+    "away_rating_after": 1485.3
+  },
+  {
+    "match_id": 564682,
+    "date": "2026-09-03",
+    "competition": "PD",
+    "home_team": "Real Sociedad de F\u00fatbol",
+    "away_team": "RC Celta de Vigo",
+    "result": "draw",
+    "home_rating_after": 1491.1,
+    "away_rating_after": 1448.8
+  },
+  {
+    "match_id": 564667,
+    "date": "2026-09-04",
+    "competition": "PD",
+    "home_team": "Real Betis Balompi\u00e9",
+    "away_team": "Real Madrid CF",
+    "result": "home_win",
+    "home_rating_after": 1567.2,
+    "away_rating_after": 1561.4
+  },
+  {
+    "match_id": 564663,
+    "date": "2026-09-05",
+    "competition": "PD",
+    "home_team": "Athletic Club",
+    "away_team": "Club Atl\u00e9tico de Madrid",
+    "result": "home_win",
+    "home_rating_after": 1525.8,
+    "away_rating_after": 1522.7
+  },
+  {
+    "match_id": 564660,
+    "date": "2026-09-05",
+    "competition": "PD",
+    "home_team": "Rayo Vallecano de Madrid",
+    "away_team": "Real Racing Club de Santander",
+    "result": "home_win",
+    "home_rating_after": 1498.9,
+    "away_rating_after": 1468.8
+  },
+  {
+    "match_id": 564662,
+    "date": "2026-09-05",
+    "competition": "PD",
+    "home_team": "Villarreal CF",
+    "away_team": "RC Deportivo La Coru\u00f1a",
+    "result": "away_win",
+    "home_rating_after": 1447.4,
+    "away_rating_after": 1546.8
+  },
+  {
+    "match_id": 564659,
+    "date": "2026-09-06",
+    "competition": "PD",
+    "home_team": "Valencia CF",
+    "away_team": "FC Barcelona",
+    "result": "away_win",
+    "home_rating_after": 1441.6,
+    "away_rating_after": 2014.4
+  },
+  {
+    "match_id": 564664,
+    "date": "2026-09-06",
+    "competition": "PD",
+    "home_team": "Deportivo Alav\u00e9s",
+    "away_team": "CA Osasuna",
+    "result": "home_win",
+    "home_rating_after": 1571.8,
+    "away_rating_after": 1525.7
+  },
+  {
+    "match_id": 564666,
+    "date": "2026-09-06",
+    "competition": "PD",
+    "home_team": "M\u00e1laga CF",
+    "away_team": "Levante UD",
+    "result": "draw",
+    "home_rating_after": 1454.5,
+    "away_rating_after": 1509.4
+  },
+  {
+    "match_id": 564661,
+    "date": "2026-09-06",
+    "competition": "PD",
+    "home_team": "RCD Espanyol de Barcelona",
+    "away_team": "Sevilla FC",
+    "result": "draw",
+    "home_rating_after": 1467.8,
+    "away_rating_after": 1522.8
+  },
+  {
+    "match_id": 564665,
+    "date": "2026-09-07",
+    "competition": "PD",
+    "home_team": "Getafe CF",
+    "away_team": "RC Celta de Vigo",
+    "result": "draw",
+    "home_rating_after": 1473.4,
+    "away_rating_after": 1451.2
+  },
+  {
+    "match_id": 564658,
+    "date": "2026-09-07",
+    "competition": "PD",
+    "home_team": "Elche CF",
+    "away_team": "Real Sociedad de F\u00fatbol",
+    "result": "away_win",
+    "home_rating_after": 1443.1,
+    "away_rating_after": 1506.0
+  },
+  {
+    "match_id": 564669,
+    "date": "2026-09-11",
+    "competition": "PD",
+    "home_team": "Sevilla FC",
+    "away_team": "Valencia CF",
+    "result": "home_win",
+    "home_rating_after": 1533.2,
+    "away_rating_after": 1431.2
+  },
+  {
+    "match_id": 564670,
+    "date": "2026-09-12",
+    "competition": "PD",
+    "home_team": "Real Racing Club de Santander",
+    "away_team": "Deportivo Alav\u00e9s",
+    "result": "home_win",
+    "home_rating_after": 1486.9,
+    "away_rating_after": 1553.7
+  },
+  {
+    "match_id": 564673,
+    "date": "2026-09-12",
+    "competition": "PD",
+    "home_team": "CA Osasuna",
+    "away_team": "RCD Espanyol de Barcelona",
+    "result": "away_win",
+    "home_rating_after": 1507.0,
+    "away_rating_after": 1486.5
+  },
+  {
+    "match_id": 564676,
+    "date": "2026-09-12",
+    "competition": "PD",
+    "home_team": "Athletic Club",
+    "away_team": "Elche CF",
+    "result": "draw",
+    "home_rating_after": 1521.1,
+    "away_rating_after": 1447.8
+  },
+  {
+    "match_id": 564677,
+    "date": "2026-09-12",
+    "competition": "PD",
+    "home_team": "Real Madrid CF",
+    "away_team": "Rayo Vallecano de Madrid",
+    "result": "home_win",
+    "home_rating_after": 1572.5,
+    "away_rating_after": 1487.8
+  },
+  {
+    "match_id": 564672,
+    "date": "2026-09-13",
+    "competition": "PD",
+    "home_team": "RC Celta de Vigo",
+    "away_team": "M\u00e1laga CF",
+    "result": "draw",
+    "home_rating_after": 1450.0,
+    "away_rating_after": 1455.7
+  },
+  {
+    "match_id": 564675,
+    "date": "2026-09-13",
+    "competition": "PD",
+    "home_team": "Levante UD",
+    "away_team": "FC Barcelona",
+    "result": "away_win",
+    "home_rating_after": 1507.6,
+    "away_rating_after": 2016.2
+  },
+  {
+    "match_id": 564668,
+    "date": "2026-09-13",
+    "competition": "PD",
+    "home_team": "Getafe CF",
+    "away_team": "RC Deportivo La Coru\u00f1a",
+    "result": "draw",
+    "home_rating_after": 1475.3,
+    "away_rating_after": 1544.9
+  },
+  {
+    "match_id": 564674,
+    "date": "2026-09-13",
+    "competition": "PD",
+    "home_team": "Real Sociedad de F\u00fatbol",
+    "away_team": "Club Atl\u00e9tico de Madrid",
+    "result": "away_win",
+    "home_rating_after": 1490.4,
+    "away_rating_after": 1538.3
+  },
+  {
+    "match_id": 564671,
+    "date": "2026-09-14",
+    "competition": "PD",
+    "home_team": "Villarreal CF",
+    "away_team": "Real Betis Balompi\u00e9",
+    "result": "away_win",
+    "home_rating_after": 1436.2,
+    "away_rating_after": 1578.4
+  },
+  {
+    "match_id": 564678,
+    "date": "2026-09-15",
+    "competition": "PD",
+    "home_team": "Rayo Vallecano de Madrid",
+    "away_team": "RCD Espanyol de Barcelona",
+    "result": "home_win",
+    "home_rating_after": 1501.5,
+    "away_rating_after": 1472.8
+  },
+  {
+    "match_id": 564680,
+    "date": "2026-09-15",
+    "competition": "PD",
+    "home_team": "Deportivo Alav\u00e9s",
+    "away_team": "Valencia CF",
+    "result": "away_win",
+    "home_rating_after": 1532.5,
+    "away_rating_after": 1452.4
+  },
+  {
+    "match_id": 564681,
+    "date": "2026-09-15",
+    "competition": "PD",
+    "home_team": "Elche CF",
+    "away_team": "Real Madrid CF",
+    "result": "away_win",
+    "home_rating_after": 1436.8,
+    "away_rating_after": 1583.5
+  },
+  {
+    "match_id": 564679,
+    "date": "2026-09-16",
+    "competition": "PD",
+    "home_team": "RC Deportivo La Coru\u00f1a",
+    "away_team": "Sevilla FC",
+    "result": "away_win",
+    "home_rating_after": 1528.1,
+    "away_rating_after": 1550.0
+  },
+  {
+    "match_id": 564684,
+    "date": "2026-09-16",
+    "competition": "PD",
+    "home_team": "Club Atl\u00e9tico de Madrid",
+    "away_team": "CA Osasuna",
+    "result": "home_win",
+    "home_rating_after": 1550.7,
+    "away_rating_after": 1494.6
+  },
+  {
+    "match_id": 564687,
+    "date": "2026-09-16",
+    "competition": "PD",
+    "home_team": "FC Barcelona",
+    "away_team": "Real Racing Club de Santander",
+    "result": "home_win",
+    "home_rating_after": 2017.4,
+    "away_rating_after": 1485.7
+  },
+  {
+    "match_id": 564686,
+    "date": "2026-09-17",
+    "competition": "PD",
+    "home_team": "Real Betis Balompi\u00e9",
+    "away_team": "Getafe CF",
+    "result": "home_win",
+    "home_rating_after": 1587.9,
+    "away_rating_after": 1465.8
+  },
+  {
+    "match_id": 564683,
+    "date": "2026-09-17",
+    "competition": "PD",
+    "home_team": "M\u00e1laga CF",
+    "away_team": "Villarreal CF",
+    "result": "away_win",
+    "home_rating_after": 1438.6,
+    "away_rating_after": 1453.3
+  },
+  {
+    "match_id": 564692,
+    "date": "2026-09-18",
+    "competition": "PD",
+    "home_team": "RCD Espanyol de Barcelona",
+    "away_team": "Elche CF",
+    "result": "away_win",
+    "home_rating_after": 1455.0,
+    "away_rating_after": 1454.6
+  },
+  {
+    "match_id": 564693,
+    "date": "2026-09-19",
+    "competition": "PD",
+    "home_team": "CA Osasuna",
+    "away_team": "Rayo Vallecano de Madrid",
+    "result": "draw",
+    "home_rating_after": 1493.6,
+    "away_rating_after": 1502.5
+  },
+  {
+    "match_id": 564691,
+    "date": "2026-09-19",
+    "competition": "PD",
+    "home_team": "Athletic Club",
+    "away_team": "Deportivo Alav\u00e9s",
+    "result": "draw",
+    "home_rating_after": 1520.3,
+    "away_rating_after": 1533.3
+  },
+  {
+    "match_id": 564694,
+    "date": "2026-09-19",
+    "competition": "PD",
+    "home_team": "RC Celta de Vigo",
+    "away_team": "Real Racing Club de Santander",
+    "result": "home_win",
+    "home_rating_after": 1465.2,
+    "away_rating_after": 1470.5
+  },
+  {
+    "match_id": 564690,
+    "date": "2026-09-19",
+    "competition": "PD",
+    "home_team": "Sevilla FC",
+    "away_team": "FC Barcelona",
+    "result": "away_win",
+    "home_rating_after": 1547.8,
+    "away_rating_after": 2019.6
+  },
+  {
+    "match_id": 564697,
+    "date": "2026-09-20",
+    "competition": "PD",
+    "home_team": "Getafe CF",
+    "away_team": "M\u00e1laga CF",
+    "result": "home_win",
+    "home_rating_after": 1478.4,
+    "away_rating_after": 1426.0
+  },
+  {
+    "match_id": 564688,
+    "date": "2026-09-20",
+    "competition": "PD",
+    "home_team": "Club Atl\u00e9tico de Madrid",
+    "away_team": "Real Madrid CF",
+    "result": "home_win",
+    "home_rating_after": 1565.8,
+    "away_rating_after": 1568.4
+  },
+  {
+    "match_id": 564695,
+    "date": "2026-09-20",
+    "competition": "PD",
+    "home_team": "RC Deportivo La Coru\u00f1a",
+    "away_team": "Real Betis Balompi\u00e9",
+    "result": "draw",
+    "home_rating_after": 1529.4,
+    "away_rating_after": 1586.6
+  },
+  {
+    "match_id": 564696,
+    "date": "2026-09-20",
+    "competition": "PD",
+    "home_team": "Villarreal CF",
+    "away_team": "Levante UD",
+    "result": "home_win",
+    "home_rating_after": 1469.3,
+    "away_rating_after": 1491.6
+  },
+  {
+    "match_id": 564689,
+    "date": "2026-09-20",
+    "competition": "PD",
+    "home_team": "Valencia CF",
+    "away_team": "Real Sociedad de F\u00fatbol",
+    "result": "away_win",
+    "home_rating_after": 1437.7,
+    "away_rating_after": 1505.1
+  },
+  {
+    "match_id": 565776,
+    "date": "2026-08-28",
+    "competition": "BL1",
+    "home_team": "FC Bayern M\u00fcnchen",
+    "away_team": "VfB Stuttgart",
+    "result": "home_win",
+    "home_rating_after": 1545.9,
+    "away_rating_after": 1715.7
+  },
+  {
+    "match_id": 565777,
+    "date": "2026-08-29",
+    "competition": "BL1",
+    "home_team": "RB Leipzig",
+    "away_team": "Borussia M\u00f6nchengladbach",
+    "result": "home_win",
+    "home_rating_after": 1830.1,
+    "away_rating_after": 1477.4
+  },
+  {
+    "match_id": 565778,
+    "date": "2026-08-29",
+    "competition": "BL1",
+    "home_team": "1. FSV Mainz 05",
+    "away_team": "SC Paderborn 07",
+    "result": "draw",
+    "home_rating_after": 1512.1,
+    "away_rating_after": 1487.9
+  },
+  {
+    "match_id": 565779,
+    "date": "2026-08-29",
+    "competition": "BL1",
+    "home_team": "1. FC Union Berlin",
+    "away_team": "Eintracht Frankfurt",
+    "result": "draw",
+    "home_rating_after": 1483.3,
+    "away_rating_after": 1486.7
+  },
+  {
+    "match_id": 565780,
+    "date": "2026-08-29",
+    "competition": "BL1",
+    "home_team": "SV 07 Elversberg",
+    "away_team": "Bayer 04 Leverkusen",
+    "result": "home_win",
+    "home_rating_after": 1541.8,
+    "away_rating_after": 1487.9
+  },
+  {
+    "match_id": 565783,
+    "date": "2026-08-29",
+    "competition": "BL1",
+    "home_team": "1. FC K\u00f6ln",
+    "away_team": "TSG 1899 Hoffenheim",
+    "result": "home_win",
+    "home_rating_after": 1519.5,
+    "away_rating_after": 1458.9
+  },
+  {
+    "match_id": 565781,
+    "date": "2026-08-29",
+    "competition": "BL1",
+    "home_team": "Borussia Dortmund",
+    "away_team": "Hamburger SV",
+    "result": "home_win",
+    "home_rating_after": 1551.2,
+    "away_rating_after": 1459.6
+  },
+  {
+    "match_id": 565784,
+    "date": "2026-08-30",
+    "competition": "BL1",
+    "home_team": "SC Freiburg",
+    "away_team": "SV Werder Bremen",
+    "result": "home_win",
+    "home_rating_after": 1542.6,
+    "away_rating_after": 1500.2
+  },
+  {
+    "match_id": 565782,
+    "date": "2026-08-30",
+    "competition": "BL1",
+    "home_team": "FC Augsburg",
+    "away_team": "FC Schalke 04",
+    "result": "home_win",
+    "home_rating_after": 1541.5,
+    "away_rating_after": 1474.6
+  },
+  {
+    "match_id": 565791,
+    "date": "2026-09-04",
+    "competition": "BL1",
+    "home_team": "VfB Stuttgart",
+    "away_team": "1. FC K\u00f6ln",
+    "result": "home_win",
+    "home_rating_after": 1722.1,
+    "away_rating_after": 1513.1
+  },
+  {
+    "match_id": 565785,
+    "date": "2026-09-05",
+    "competition": "BL1",
+    "home_team": "SV Werder Bremen",
+    "away_team": "RB Leipzig",
+    "result": "home_win",
+    "home_rating_after": 1525.7,
+    "away_rating_after": 1804.6
+  },
+  {
+    "match_id": 565787,
+    "date": "2026-09-05",
+    "competition": "BL1",
+    "home_team": "TSG 1899 Hoffenheim",
+    "away_team": "Borussia Dortmund",
+    "result": "away_win",
+    "home_rating_after": 1446.6,
+    "away_rating_after": 1563.5
+  },
+  {
+    "match_id": 565790,
+    "date": "2026-09-05",
+    "competition": "BL1",
+    "home_team": "Bayer 04 Leverkusen",
+    "away_team": "1. FC Union Berlin",
+    "result": "home_win",
+    "home_rating_after": 1501.4,
+    "away_rating_after": 1469.8
+  },
+  {
+    "match_id": 565792,
+    "date": "2026-09-05",
+    "competition": "BL1",
+    "home_team": "Borussia M\u00f6nchengladbach",
+    "away_team": "SV 07 Elversberg",
+    "result": "away_win",
+    "home_rating_after": 1463.9,
+    "away_rating_after": 1555.3
+  },
+  {
+    "match_id": 565793,
+    "date": "2026-09-05",
+    "competition": "BL1",
+    "home_team": "SC Paderborn 07",
+    "away_team": "SC Freiburg",
+    "result": "away_win",
+    "home_rating_after": 1474.0,
+    "away_rating_after": 1556.5
+  },
+  {
+    "match_id": 565789,
+    "date": "2026-09-05",
+    "competition": "BL1",
+    "home_team": "FC Schalke 04",
+    "away_team": "FC Bayern M\u00fcnchen",
+    "result": "draw",
+    "home_rating_after": 1476.4,
+    "away_rating_after": 1544.1
+  },
+  {
+    "match_id": 565788,
+    "date": "2026-09-06",
+    "competition": "BL1",
+    "home_team": "Hamburger SV",
+    "away_team": "1. FSV Mainz 05",
+    "result": "away_win",
+    "home_rating_after": 1445.6,
+    "away_rating_after": 1526.1
+  },
+  {
+    "match_id": 565786,
+    "date": "2026-09-06",
+    "competition": "BL1",
+    "home_team": "Eintracht Frankfurt",
+    "away_team": "FC Augsburg",
+    "result": "away_win",
+    "home_rating_after": 1472.8,
+    "away_rating_after": 1555.4
+  },
+  {
+    "match_id": 565797,
+    "date": "2026-09-11",
+    "competition": "BL1",
+    "home_team": "1. FC Union Berlin",
+    "away_team": "FC Schalke 04",
+    "result": "away_win",
+    "home_rating_after": 1453.8,
+    "away_rating_after": 1492.4
+  },
+  {
+    "match_id": 565794,
+    "date": "2026-09-12",
+    "competition": "BL1",
+    "home_team": "TSG 1899 Hoffenheim",
+    "away_team": "VfB Stuttgart",
+    "result": "home_win",
+    "home_rating_after": 1470.7,
+    "away_rating_after": 1698.0
+  },
+  {
+    "match_id": 565795,
+    "date": "2026-09-12",
+    "competition": "BL1",
+    "home_team": "Borussia Dortmund",
+    "away_team": "SC Paderborn 07",
+    "result": "home_win",
+    "home_rating_after": 1573.5,
+    "away_rating_after": 1464.0
+  },
+  {
+    "match_id": 565796,
+    "date": "2026-09-12",
+    "competition": "BL1",
+    "home_team": "FC Augsburg",
+    "away_team": "Bayer 04 Leverkusen",
+    "result": "draw",
+    "home_rating_after": 1551.8,
+    "away_rating_after": 1505.0
+  },
+  {
+    "match_id": 565801,
+    "date": "2026-09-12",
+    "competition": "BL1",
+    "home_team": "1. FSV Mainz 05",
+    "away_team": "Eintracht Frankfurt",
+    "result": "away_win",
+    "home_rating_after": 1507.6,
+    "away_rating_after": 1491.3
+  },
+  {
+    "match_id": 565802,
+    "date": "2026-09-12",
+    "competition": "BL1",
+    "home_team": "SC Freiburg",
+    "away_team": "Borussia M\u00f6nchengladbach",
+    "result": "home_win",
+    "home_rating_after": 1566.4,
+    "away_rating_after": 1454.0
+  },
+  {
+    "match_id": 565798,
+    "date": "2026-09-12",
+    "competition": "BL1",
+    "home_team": "1. FC K\u00f6ln",
+    "away_team": "SV Werder Bremen",
+    "result": "draw",
+    "home_rating_after": 1512.3,
+    "away_rating_after": 1526.5
+  },
+  {
+    "match_id": 565799,
+    "date": "2026-09-13",
+    "competition": "BL1",
+    "home_team": "RB Leipzig",
+    "away_team": "Hamburger SV",
+    "result": "home_win",
+    "home_rating_after": 1807.5,
+    "away_rating_after": 1442.7
+  },
+  {
+    "match_id": 565800,
+    "date": "2026-09-13",
+    "competition": "BL1",
+    "home_team": "SV 07 Elversberg",
+    "away_team": "FC Bayern M\u00fcnchen",
+    "result": "away_win",
+    "home_rating_after": 1538.5,
+    "away_rating_after": 1560.9
+  },
+  {
+    "match_id": 565804,
+    "date": "2026-09-18",
+    "competition": "BL1",
+    "home_team": "FC Bayern M\u00fcnchen",
+    "away_team": "1. FC Union Berlin",
+    "result": "home_win",
+    "home_rating_after": 1570.3,
+    "away_rating_after": 1444.4
+  },
+  {
+    "match_id": 565808,
+    "date": "2026-09-19",
+    "competition": "BL1",
+    "home_team": "Hamburger SV",
+    "away_team": "1. FC K\u00f6ln",
+    "result": "home_win",
+    "home_rating_after": 1459.4,
+    "away_rating_after": 1495.6
+  },
+  {
+    "match_id": 565809,
+    "date": "2026-09-19",
+    "competition": "BL1",
+    "home_team": "Borussia M\u00f6nchengladbach",
+    "away_team": "1. FSV Mainz 05",
+    "result": "away_win",
+    "home_rating_after": 1440.0,
+    "away_rating_after": 1521.6
+  },
+  {
+    "match_id": 565810,
+    "date": "2026-09-19",
+    "competition": "BL1",
+    "home_team": "SV Werder Bremen",
+    "away_team": "FC Augsburg",
+    "result": "home_win",
+    "home_rating_after": 1541.3,
+    "away_rating_after": 1537.0
+  },
+  {
+    "match_id": 565811,
+    "date": "2026-09-19",
+    "competition": "BL1",
+    "home_team": "Eintracht Frankfurt",
+    "away_team": "SC Freiburg",
+    "result": "draw",
+    "home_rating_after": 1493.2,
+    "away_rating_after": 1564.5
+  },
+  {
+    "match_id": 565806,
+    "date": "2026-09-19",
+    "competition": "BL1",
+    "home_team": "VfB Stuttgart",
+    "away_team": "Borussia Dortmund",
+    "result": "away_win",
+    "home_rating_after": 1676.7,
+    "away_rating_after": 1594.8
+  },
+  {
+    "match_id": 565807,
+    "date": "2026-09-20",
+    "competition": "BL1",
+    "home_team": "Bayer 04 Leverkusen",
+    "away_team": "RB Leipzig",
+    "result": "home_win",
+    "home_rating_after": 1529.8,
+    "away_rating_after": 1782.7
+  },
+  {
+    "match_id": 565805,
+    "date": "2026-09-20",
+    "competition": "BL1",
+    "home_team": "FC Schalke 04",
+    "away_team": "SV 07 Elversberg",
+    "result": "draw",
+    "home_rating_after": 1493.1,
+    "away_rating_after": 1537.8
+  },
+  {
+    "match_id": 565803,
+    "date": "2026-09-20",
+    "competition": "BL1",
+    "home_team": "SC Paderborn 07",
+    "away_team": "TSG 1899 Hoffenheim",
+    "result": "home_win",
+    "home_rating_after": 1478.0,
+    "away_rating_after": 1456.7
+  },
+  {
+    "match_id": 558629,
+    "date": "2026-08-22",
+    "competition": "SA",
+    "home_team": "Udinese Calcio",
+    "away_team": "Como 1907",
+    "result": "draw",
+    "home_rating_after": 1502.3,
+    "away_rating_after": 1588.1
+  },
+  {
+    "match_id": 558632,
+    "date": "2026-08-22",
+    "competition": "SA",
+    "home_team": "FC Internazionale Milano",
+    "away_team": "AC Monza",
+    "result": "home_win",
+    "home_rating_after": 1550.2,
+    "away_rating_after": 1462.1
+  },
+  {
+    "match_id": 558631,
+    "date": "2026-08-22",
+    "competition": "SA",
+    "home_team": "Genoa CFC",
+    "away_team": "SSC Napoli",
+    "result": "away_win",
+    "home_rating_after": 1465.4,
+    "away_rating_after": 1798.9
+  },
+  {
+    "match_id": 558636,
+    "date": "2026-08-22",
+    "competition": "SA",
+    "home_team": "Parma Calcio 1913",
+    "away_team": "Cagliari Calcio",
+    "result": "away_win",
+    "home_rating_after": 1454.4,
+    "away_rating_after": 1527.1
+  },
+  {
+    "match_id": 558635,
+    "date": "2026-08-23",
+    "competition": "SA",
+    "home_team": "Frosinone Calcio",
+    "away_team": "Juventus FC",
+    "result": "away_win",
+    "home_rating_after": 1496.0,
+    "away_rating_after": 1541.7
+  },
+  {
+    "match_id": 558637,
+    "date": "2026-08-23",
+    "competition": "SA",
+    "home_team": "Venezia FC",
+    "away_team": "US Lecce",
+    "result": "away_win",
+    "home_rating_after": 1445.5,
+    "away_rating_after": 1512.4
+  },
+  {
+    "match_id": 558633,
+    "date": "2026-08-23",
+    "competition": "SA",
+    "home_team": "Atalanta BC",
+    "away_team": "US Sassuolo Calcio",
+    "result": "home_win",
+    "home_rating_after": 1532.5,
+    "away_rating_after": 1488.3
+  },
+  {
+    "match_id": 558634,
+    "date": "2026-08-23",
+    "competition": "SA",
+    "home_team": "Torino FC",
+    "away_team": "AC Milan",
+    "result": "away_win",
+    "home_rating_after": 1473.7,
+    "away_rating_after": 1545.6
+  },
+  {
+    "match_id": 558630,
+    "date": "2026-08-24",
+    "competition": "SA",
+    "home_team": "Bologna FC 1909",
+    "away_team": "SS Lazio",
+    "result": "away_win",
+    "home_rating_after": 1456.8,
+    "away_rating_after": 1559.1
+  },
+  {
+    "match_id": 558638,
+    "date": "2026-08-24",
+    "competition": "SA",
+    "home_team": "AS Roma",
+    "away_team": "ACF Fiorentina",
+    "result": "home_win",
+    "home_rating_after": 1798.0,
+    "away_rating_after": 1457.0
+  },
+  {
+    "match_id": 558625,
+    "date": "2026-08-28",
+    "competition": "SA",
+    "home_team": "AC Milan",
+    "away_team": "Venezia FC",
+    "result": "home_win",
+    "home_rating_after": 1555.2,
+    "away_rating_after": 1435.9
+  },
+  {
+    "match_id": 558620,
+    "date": "2026-08-29",
+    "competition": "SA",
+    "home_team": "US Sassuolo Calcio",
+    "away_team": "Torino FC",
+    "result": "home_win",
+    "home_rating_after": 1501.4,
+    "away_rating_after": 1460.6
+  },
+  {
+    "match_id": 558624,
+    "date": "2026-08-29",
+    "competition": "SA",
+    "home_team": "AC Monza",
+    "away_team": "Udinese Calcio",
+    "result": "away_win",
+    "home_rating_after": 1447.5,
+    "away_rating_after": 1516.9
+  },
+  {
+    "match_id": 558627,
+    "date": "2026-08-29",
+    "competition": "SA",
+    "home_team": "ACF Fiorentina",
+    "away_team": "Frosinone Calcio",
+    "result": "away_win",
+    "home_rating_after": 1442.4,
+    "away_rating_after": 1510.6
+  },
+  {
+    "match_id": 558619,
+    "date": "2026-08-29",
+    "competition": "SA",
+    "home_team": "Juventus FC",
+    "away_team": "Parma Calcio 1913",
+    "result": "home_win",
+    "home_rating_after": 1551.8,
+    "away_rating_after": 1444.3
+  },
+  {
+    "match_id": 558626,
+    "date": "2026-08-30",
+    "competition": "SA",
+    "home_team": "SSC Napoli",
+    "away_team": "Como 1907",
+    "result": "away_win",
+    "home_rating_after": 1774.9,
+    "away_rating_after": 1612.1
+  },
+  {
+    "match_id": 558622,
+    "date": "2026-08-30",
+    "competition": "SA",
+    "home_team": "SS Lazio",
+    "away_team": "Genoa CFC",
+    "result": "home_win",
+    "home_rating_after": 1569.0,
+    "away_rating_after": 1455.5
+  },
+  {
+    "match_id": 558623,
+    "date": "2026-08-30",
+    "competition": "SA",
+    "home_team": "Cagliari Calcio",
+    "away_team": "FC Internazionale Milano",
+    "result": "away_win",
+    "home_rating_after": 1511.8,
+    "away_rating_after": 1565.5
+  },
+  {
+    "match_id": 558621,
+    "date": "2026-08-31",
+    "competition": "SA",
+    "home_team": "US Lecce",
+    "away_team": "AS Roma",
+    "result": "away_win",
+    "home_rating_after": 1506.8,
+    "away_rating_after": 1803.6
+  },
+  {
+    "match_id": 558628,
+    "date": "2026-08-31",
+    "competition": "SA",
+    "home_team": "Atalanta BC",
+    "away_team": "Bologna FC 1909",
+    "result": "home_win",
+    "home_rating_after": 1543.1,
+    "away_rating_after": 1446.2
+  },
+  {
+    "match_id": 558609,
+    "date": "2026-09-04",
+    "competition": "SA",
+    "home_team": "Genoa CFC",
+    "away_team": "Como 1907",
+    "result": "away_win",
+    "home_rating_after": 1445.7,
+    "away_rating_after": 1621.9
+  },
+  {
+    "match_id": 558616,
+    "date": "2026-09-05",
+    "competition": "SA",
+    "home_team": "ACF Fiorentina",
+    "away_team": "Torino FC",
+    "result": "away_win",
+    "home_rating_after": 1426.9,
+    "away_rating_after": 1476.1
+  },
+  {
+    "match_id": 558614,
+    "date": "2026-09-05",
+    "competition": "SA",
+    "home_team": "FC Internazionale Milano",
+    "away_team": "SSC Napoli",
+    "result": "home_win",
+    "home_rating_after": 1587.6,
+    "away_rating_after": 1752.8
+  },
+  {
+    "match_id": 558611,
+    "date": "2026-09-05",
+    "competition": "SA",
+    "home_team": "AS Roma",
+    "away_team": "Atalanta BC",
+    "result": "home_win",
+    "home_rating_after": 1808.3,
+    "away_rating_after": 1538.4
+  },
+  {
+    "match_id": 558612,
+    "date": "2026-09-06",
+    "competition": "SA",
+    "home_team": "Parma Calcio 1913",
+    "away_team": "AC Monza",
+    "result": "draw",
+    "home_rating_after": 1443.1,
+    "away_rating_after": 1448.7
+  },
+  {
+    "match_id": 558615,
+    "date": "2026-09-06",
+    "competition": "SA",
+    "home_team": "Frosinone Calcio",
+    "away_team": "Venezia FC",
+    "result": "home_win",
+    "home_rating_after": 1521.2,
+    "away_rating_after": 1425.3
+  },
+  {
+    "match_id": 558613,
+    "date": "2026-09-06",
+    "competition": "SA",
+    "home_team": "Bologna FC 1909",
+    "away_team": "US Sassuolo Calcio",
+    "result": "draw",
+    "home_rating_after": 1447.3,
+    "away_rating_after": 1500.3
+  },
+  {
+    "match_id": 558618,
+    "date": "2026-09-06",
+    "competition": "SA",
+    "home_team": "Juventus FC",
+    "away_team": "AC Milan",
+    "result": "draw",
+    "home_rating_after": 1550.7,
+    "away_rating_after": 1556.3
+  },
+  {
+    "match_id": 558610,
+    "date": "2026-09-07",
+    "competition": "SA",
+    "home_team": "Cagliari Calcio",
+    "away_team": "US Lecce",
+    "result": "home_win",
+    "home_rating_after": 1525.3,
+    "away_rating_after": 1493.3
+  },
+  {
+    "match_id": 558617,
+    "date": "2026-09-07",
+    "competition": "SA",
+    "home_team": "Udinese Calcio",
+    "away_team": "SS Lazio",
+    "result": "away_win",
+    "home_rating_after": 1502.9,
+    "away_rating_after": 1583.0
+  },
+  {
+    "match_id": 558606,
+    "date": "2026-09-11",
+    "competition": "SA",
+    "home_team": "Venezia FC",
+    "away_team": "ACF Fiorentina",
+    "result": "away_win",
+    "home_rating_after": 1409.1,
+    "away_rating_after": 1443.1
+  },
+  {
+    "match_id": 558604,
+    "date": "2026-09-12",
+    "competition": "SA",
+    "home_team": "Genoa CFC",
+    "away_team": "Frosinone Calcio",
+    "result": "draw",
+    "home_rating_after": 1447.7,
+    "away_rating_after": 1519.2
+  },
+  {
+    "match_id": 558600,
+    "date": "2026-09-12",
+    "competition": "SA",
+    "home_team": "SS Lazio",
+    "away_team": "AC Milan",
+    "result": "draw",
+    "home_rating_after": 1580.6,
+    "away_rating_after": 1558.7
+  },
+  {
+    "match_id": 558607,
+    "date": "2026-09-12",
+    "competition": "SA",
+    "home_team": "Atalanta BC",
+    "away_team": "Cagliari Calcio",
+    "result": "away_win",
+    "home_rating_after": 1521.5,
+    "away_rating_after": 1542.2
+  },
+  {
+    "match_id": 558605,
+    "date": "2026-09-13",
+    "competition": "SA",
+    "home_team": "US Lecce",
+    "away_team": "AC Monza",
+    "result": "home_win",
+    "home_rating_after": 1505.1,
+    "away_rating_after": 1436.9
+  },
+  {
+    "match_id": 558599,
+    "date": "2026-09-13",
+    "competition": "SA",
+    "home_team": "SSC Napoli",
+    "away_team": "Bologna FC 1909",
+    "result": "home_win",
+    "home_rating_after": 1756.6,
+    "away_rating_after": 1443.5
+  },
+  {
+    "match_id": 558608,
+    "date": "2026-09-13",
+    "competition": "SA",
+    "home_team": "US Sassuolo Calcio",
+    "away_team": "Juventus FC",
+    "result": "home_win",
+    "home_rating_after": 1516.2,
+    "away_rating_after": 1534.8
+  },
+  {
+    "match_id": 558602,
+    "date": "2026-09-14",
+    "competition": "SA",
+    "home_team": "Como 1907",
+    "away_team": "Parma Calcio 1913",
+    "result": "home_win",
+    "home_rating_after": 1628.8,
+    "away_rating_after": 1436.2
+  },
+  {
+    "match_id": 558603,
+    "date": "2026-09-14",
+    "competition": "SA",
+    "home_team": "Torino FC",
+    "away_team": "AS Roma",
+    "result": "away_win",
+    "home_rating_after": 1471.6,
+    "away_rating_after": 1812.8
+  },
+  {
+    "match_id": 558601,
+    "date": "2026-09-14",
+    "competition": "SA",
+    "home_team": "FC Internazionale Milano",
+    "away_team": "Udinese Calcio",
+    "result": "home_win",
+    "home_rating_after": 1597.8,
+    "away_rating_after": 1492.7
+  },
+  {
+    "match_id": 558596,
+    "date": "2026-09-18",
+    "competition": "SA",
+    "home_team": "AC Monza",
+    "away_team": "US Sassuolo Calcio",
+    "result": "home_win",
+    "home_rating_after": 1454.0,
+    "away_rating_after": 1499.1
+  },
+  {
+    "match_id": 558598,
+    "date": "2026-09-19",
+    "competition": "SA",
+    "home_team": "Bologna FC 1909",
+    "away_team": "Torino FC",
+    "result": "draw",
+    "home_rating_after": 1443.4,
+    "away_rating_after": 1471.7
+  },
+  {
+    "match_id": 558589,
+    "date": "2026-09-19",
+    "competition": "SA",
+    "home_team": "Udinese Calcio",
+    "away_team": "Cagliari Calcio",
+    "result": "away_win",
+    "home_rating_after": 1478.5,
+    "away_rating_after": 1556.4
+  },
+  {
+    "match_id": 558593,
+    "date": "2026-09-19",
+    "competition": "SA",
+    "home_team": "AS Roma",
+    "away_team": "FC Internazionale Milano",
+    "result": "draw",
+    "home_rating_after": 1803.7,
+    "away_rating_after": 1606.9
+  },
+  {
+    "match_id": 558594,
+    "date": "2026-09-19",
+    "competition": "SA",
+    "home_team": "Venezia FC",
+    "away_team": "SS Lazio",
+    "result": "away_win",
+    "home_rating_after": 1399.9,
+    "away_rating_after": 1589.8
+  },
+  {
+    "match_id": 558591,
+    "date": "2026-09-20",
+    "competition": "SA",
+    "home_team": "ACF Fiorentina",
+    "away_team": "SSC Napoli",
+    "result": "draw",
+    "home_rating_after": 1453.2,
+    "away_rating_after": 1746.5
+  },
+  {
+    "match_id": 558592,
+    "date": "2026-09-20",
+    "competition": "SA",
+    "home_team": "Frosinone Calcio",
+    "away_team": "Como 1907",
+    "result": "home_win",
+    "home_rating_after": 1537.6,
+    "away_rating_after": 1610.4
+  },
+  {
+    "match_id": 558590,
+    "date": "2026-09-20",
+    "competition": "SA",
+    "home_team": "Parma Calcio 1913",
+    "away_team": "Genoa CFC",
+    "result": "home_win",
+    "home_rating_after": 1450.4,
+    "away_rating_after": 1433.5
+  },
+  {
+    "match_id": 558595,
+    "date": "2026-09-20",
+    "competition": "SA",
+    "home_team": "Juventus FC",
+    "away_team": "Atalanta BC",
+    "result": "home_win",
+    "home_rating_after": 1547.9,
+    "away_rating_after": 1508.4
+  },
+  {
+    "match_id": 558597,
+    "date": "2026-09-20",
+    "competition": "SA",
+    "home_team": "AC Milan",
+    "away_team": "US Lecce",
+    "result": "home_win",
+    "home_rating_after": 1570.2,
+    "away_rating_after": 1493.6
+  },
+  {
+    "match_id": 559715,
+    "date": "2026-08-21",
+    "competition": "FL1",
+    "home_team": "Olympique de Marseille",
+    "away_team": "RC Strasbourg Alsace",
+    "result": "home_win",
+    "home_rating_after": 1498.6,
+    "away_rating_after": 1504.0
+  },
+  {
+    "match_id": 559712,
+    "date": "2026-08-22",
+    "competition": "FL1",
+    "home_team": "Racing Club de Lens",
+    "away_team": "AJ Auxerre",
+    "result": "home_win",
+    "home_rating_after": 1493.5,
+    "away_rating_after": 1446.4
+  },
+  {
+    "match_id": 559711,
+    "date": "2026-08-22",
+    "competition": "FL1",
+    "home_team": "Le Mans FC",
+    "away_team": "Stade Brestois 29",
+    "result": "draw",
+    "home_rating_after": 1487.5,
+    "away_rating_after": 1516.3
+  },
+  {
+    "match_id": 559714,
+    "date": "2026-08-22",
+    "competition": "FL1",
+    "home_team": "ES Troyes AC",
+    "away_team": "Paris FC",
+    "result": "draw",
+    "home_rating_after": 1497.2,
+    "away_rating_after": 1531.5
+  },
+  {
+    "match_id": 559716,
+    "date": "2026-08-22",
+    "competition": "FL1",
+    "home_team": "OGC Nice",
+    "away_team": "FC Lorient",
+    "result": "draw",
+    "home_rating_after": 1482.2,
+    "away_rating_after": 1503.4
+  },
+  {
+    "match_id": 559718,
+    "date": "2026-08-22",
+    "competition": "FL1",
+    "home_team": "Toulouse FC",
+    "away_team": "Olympique Lyonnais",
+    "result": "away_win",
+    "home_rating_after": 1455.5,
+    "away_rating_after": 1538.1
+  },
+  {
+    "match_id": 559717,
+    "date": "2026-08-23",
+    "competition": "FL1",
+    "home_team": "Angers SCO",
+    "away_team": "Lille OSC",
+    "result": "away_win",
+    "home_rating_after": 1468.1,
+    "away_rating_after": 1529.3
+  },
+  {
+    "match_id": 559719,
+    "date": "2026-08-23",
+    "competition": "FL1",
+    "home_team": "Le Havre AC",
+    "away_team": "AS Monaco FC",
+    "result": "away_win",
+    "home_rating_after": 1456.4,
+    "away_rating_after": 1559.3
+  },
+  {
+    "match_id": 559713,
+    "date": "2026-08-23",
+    "competition": "FL1",
+    "home_team": "Stade Rennais FC 1901",
+    "away_team": "Paris Saint-Germain FC",
+    "result": "draw",
+    "home_rating_after": 1524.7,
+    "away_rating_after": 1505.8
+  },
+  {
+    "match_id": 559702,
+    "date": "2026-08-28",
+    "competition": "FL1",
+    "home_team": "Lille OSC",
+    "away_team": "Paris Saint-Germain FC",
+    "result": "draw",
+    "home_rating_after": 1527.0,
+    "away_rating_after": 1508.1
+  },
+  {
+    "match_id": 559704,
+    "date": "2026-08-29",
+    "competition": "FL1",
+    "home_team": "RC Strasbourg Alsace",
+    "away_team": "Racing Club de Lens",
+    "result": "home_win",
+    "home_rating_after": 1517.3,
+    "away_rating_after": 1480.2
+  },
+  {
+    "match_id": 559705,
+    "date": "2026-08-29",
+    "competition": "FL1",
+    "home_team": "FC Lorient",
+    "away_team": "ES Troyes AC",
+    "result": "away_win",
+    "home_rating_after": 1486.8,
+    "away_rating_after": 1513.8
+  },
+  {
+    "match_id": 559706,
+    "date": "2026-08-29",
+    "competition": "FL1",
+    "home_team": "Olympique Lyonnais",
+    "away_team": "Le Havre AC",
+    "result": "draw",
+    "home_rating_after": 1533.4,
+    "away_rating_after": 1461.1
+  },
+  {
+    "match_id": 559708,
+    "date": "2026-08-29",
+    "competition": "FL1",
+    "home_team": "AJ Auxerre",
+    "away_team": "Angers SCO",
+    "result": "away_win",
+    "home_rating_after": 1431.0,
+    "away_rating_after": 1483.5
+  },
+  {
+    "match_id": 559710,
+    "date": "2026-08-29",
+    "competition": "FL1",
+    "home_team": "Stade Brestois 29",
+    "away_team": "Toulouse FC",
+    "result": "draw",
+    "home_rating_after": 1512.5,
+    "away_rating_after": 1459.3
+  },
+  {
+    "match_id": 559707,
+    "date": "2026-08-30",
+    "competition": "FL1",
+    "home_team": "Paris FC",
+    "away_team": "OGC Nice",
+    "result": "home_win",
+    "home_rating_after": 1543.1,
+    "away_rating_after": 1470.6
+  },
+  {
+    "match_id": 559709,
+    "date": "2026-08-30",
+    "competition": "FL1",
+    "home_team": "Stade Rennais FC 1901",
+    "away_team": "Le Mans FC",
+    "result": "home_win",
+    "home_rating_after": 1536.8,
+    "away_rating_after": 1475.4
+  },
+  {
+    "match_id": 559703,
+    "date": "2026-08-30",
+    "competition": "FL1",
+    "home_team": "AS Monaco FC",
+    "away_team": "Olympique de Marseille",
+    "result": "home_win",
+    "home_rating_after": 1570.5,
+    "away_rating_after": 1487.4
+  },
+  {
+    "match_id": 559696,
+    "date": "2026-09-03",
+    "competition": "FL1",
+    "home_team": "Toulouse FC",
+    "away_team": "Lille OSC",
+    "result": "away_win",
+    "home_rating_after": 1445.9,
+    "away_rating_after": 1540.4
+  },
+  {
+    "match_id": 559699,
+    "date": "2026-09-04",
+    "competition": "FL1",
+    "home_team": "Olympique Lyonnais",
+    "away_team": "AJ Auxerre",
+    "result": "home_win",
+    "home_rating_after": 1542.9,
+    "away_rating_after": 1421.5
+  },
+  {
+    "match_id": 559697,
+    "date": "2026-09-04",
+    "competition": "FL1",
+    "home_team": "Paris Saint-Germain FC",
+    "away_team": "AS Monaco FC",
+    "result": "away_win",
+    "home_rating_after": 1494.5,
+    "away_rating_after": 1584.1
+  },
+  {
+    "match_id": 559695,
+    "date": "2026-09-05",
+    "competition": "FL1",
+    "home_team": "Racing Club de Lens",
+    "away_team": "FC Lorient",
+    "result": "away_win",
+    "home_rating_after": 1464.2,
+    "away_rating_after": 1502.8
+  },
+  {
+    "match_id": 559693,
+    "date": "2026-09-05",
+    "competition": "FL1",
+    "home_team": "Le Havre AC",
+    "away_team": "Stade Brestois 29",
+    "result": "away_win",
+    "home_rating_after": 1447.0,
+    "away_rating_after": 1526.6
+  },
+  {
+    "match_id": 559701,
+    "date": "2026-09-05",
+    "competition": "FL1",
+    "home_team": "OGC Nice",
+    "away_team": "Le Mans FC",
+    "result": "draw",
+    "home_rating_after": 1469.5,
+    "away_rating_after": 1476.5
+  },
+  {
+    "match_id": 559700,
+    "date": "2026-09-06",
+    "competition": "FL1",
+    "home_team": "ES Troyes AC",
+    "away_team": "RC Strasbourg Alsace",
+    "result": "away_win",
+    "home_rating_after": 1497.7,
+    "away_rating_after": 1533.4
+  },
+  {
+    "match_id": 559698,
+    "date": "2026-09-06",
+    "competition": "FL1",
+    "home_team": "Angers SCO",
+    "away_team": "Stade Rennais FC 1901",
+    "result": "away_win",
+    "home_rating_after": 1469.5,
+    "away_rating_after": 1550.8
+  },
+  {
+    "match_id": 559694,
+    "date": "2026-09-06",
+    "competition": "FL1",
+    "home_team": "Olympique de Marseille",
+    "away_team": "Paris FC",
+    "result": "away_win",
+    "home_rating_after": 1473.5,
+    "away_rating_after": 1557.0
+  },
+  {
+    "match_id": 559689,
+    "date": "2026-09-11",
+    "competition": "FL1",
+    "home_team": "Stade Rennais FC 1901",
+    "away_team": "Olympique de Marseille",
+    "result": "home_win",
+    "home_rating_after": 1561.3,
+    "away_rating_after": 1463.0
+  },
+  {
+    "match_id": 559687,
+    "date": "2026-09-12",
+    "competition": "FL1",
+    "home_team": "RC Strasbourg Alsace",
+    "away_team": "AS Monaco FC",
+    "result": "draw",
+    "home_rating_after": 1534.3,
+    "away_rating_after": 1583.2
+  },
+  {
+    "match_id": 559684,
+    "date": "2026-09-12",
+    "competition": "FL1",
+    "home_team": "FC Lorient",
+    "away_team": "Toulouse FC",
+    "result": "draw",
+    "home_rating_after": 1499.1,
+    "away_rating_after": 1449.6
+  },
+  {
+    "match_id": 559688,
+    "date": "2026-09-12",
+    "competition": "FL1",
+    "home_team": "AJ Auxerre",
+    "away_team": "OGC Nice",
+    "result": "home_win",
+    "home_rating_after": 1437.3,
+    "away_rating_after": 1453.7
+  },
+  {
+    "match_id": 559690,
+    "date": "2026-09-12",
+    "competition": "FL1",
+    "home_team": "Le Havre AC",
+    "away_team": "Angers SCO",
+    "result": "draw",
+    "home_rating_after": 1446.7,
+    "away_rating_after": 1469.8
+  },
+  {
+    "match_id": 559692,
+    "date": "2026-09-12",
+    "competition": "FL1",
+    "home_team": "Paris FC",
+    "away_team": "Olympique Lyonnais",
+    "result": "draw",
+    "home_rating_after": 1555.1,
+    "away_rating_after": 1544.8
+  },
+  {
+    "match_id": 559685,
+    "date": "2026-09-13",
+    "competition": "FL1",
+    "home_team": "Lille OSC",
+    "away_team": "ES Troyes AC",
+    "result": "home_win",
+    "home_rating_after": 1552.3,
+    "away_rating_after": 1485.8
+  },
+  {
+    "match_id": 559686,
+    "date": "2026-09-13",
+    "competition": "FL1",
+    "home_team": "Le Mans FC",
+    "away_team": "Racing Club de Lens",
+    "result": "draw",
+    "home_rating_after": 1474.7,
+    "away_rating_after": 1466.0
+  },
+  {
+    "match_id": 559691,
+    "date": "2026-09-13",
+    "competition": "FL1",
+    "home_team": "Stade Brestois 29",
+    "away_team": "Paris Saint-Germain FC",
+    "result": "away_win",
+    "home_rating_after": 1508.9,
+    "away_rating_after": 1512.2
+  },
+  {
+    "match_id": 559682,
+    "date": "2026-09-18",
+    "competition": "FL1",
+    "home_team": "AS Monaco FC",
+    "away_team": "Racing Club de Lens",
+    "result": "home_win",
+    "home_rating_after": 1592.2,
+    "away_rating_after": 1457.0
+  },
+  {
+    "match_id": 559679,
+    "date": "2026-09-19",
+    "competition": "FL1",
+    "home_team": "Paris FC",
+    "away_team": "RC Strasbourg Alsace",
+    "result": "home_win",
+    "home_rating_after": 1567.9,
+    "away_rating_after": 1521.5
+  },
+  {
+    "match_id": 559677,
+    "date": "2026-09-19",
+    "competition": "FL1",
+    "home_team": "Le Mans FC",
+    "away_team": "FC Lorient",
+    "result": "home_win",
+    "home_rating_after": 1489.5,
+    "away_rating_after": 1484.3
+  },
+  {
+    "match_id": 559680,
+    "date": "2026-09-19",
+    "competition": "FL1",
+    "home_team": "Toulouse FC",
+    "away_team": "Le Havre AC",
+    "result": "home_win",
+    "home_rating_after": 1463.2,
+    "away_rating_after": 1433.1
+  },
+  {
+    "match_id": 559681,
+    "date": "2026-09-19",
+    "competition": "FL1",
+    "home_team": "Angers SCO",
+    "away_team": "ES Troyes AC",
+    "result": "home_win",
+    "home_rating_after": 1484.2,
+    "away_rating_after": 1471.4
+  },
+  {
+    "match_id": 559683,
+    "date": "2026-09-19",
+    "competition": "FL1",
+    "home_team": "Olympique Lyonnais",
+    "away_team": "Stade Rennais FC 1901",
+    "result": "home_win",
+    "home_rating_after": 1559.2,
+    "away_rating_after": 1546.9
+  },
+  {
+    "match_id": 559676,
+    "date": "2026-09-20",
+    "competition": "FL1",
+    "home_team": "AJ Auxerre",
+    "away_team": "Stade Brestois 29",
+    "result": "home_win",
+    "home_rating_after": 1454.1,
+    "away_rating_after": 1492.1
+  },
+  {
+    "match_id": 559678,
+    "date": "2026-09-20",
+    "competition": "FL1",
+    "home_team": "OGC Nice",
+    "away_team": "Lille OSC",
+    "result": "home_win",
+    "home_rating_after": 1471.6,
+    "away_rating_after": 1534.4
+  },
+  {
+    "match_id": 559675,
+    "date": "2026-09-20",
+    "competition": "FL1",
+    "home_team": "Olympique de Marseille",
+    "away_team": "Paris Saint-Germain FC",
+    "result": "away_win",
+    "home_rating_after": 1448.8,
+    "away_rating_after": 1526.4
+  }
+]

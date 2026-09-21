@@ -51,7 +51,14 @@ def fetch_matches(api_key: str, competition: str = DEFAULT_COMPETITION,
         params["dateTo"] = date_to or date_from
 
     response = requests.get(url, headers=headers, params=params, timeout=10)
-    response.raise_for_status()
+    try:
+        response.raise_for_status()
+    except requests.exceptions.HTTPError as e:
+        # football-data.org includes a specific "message" field explaining
+        # *why* the request was rejected (bad date range, plan restriction,
+        # etc.) — the default exception text doesn't include it, and
+        # without it we're just guessing.
+        raise requests.exceptions.HTTPError(f"{e} — API said: {response.text}") from e
 
     data = response.json()
     matches = data.get("matches", [])
