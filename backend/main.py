@@ -6,6 +6,11 @@ on top of elo.py, storage.py, and live_data.py, unchanged from the CLI
 version. This is a deliberate architecture choice: the core logic doesn't
 care whether it's being driven by a CLI or a web API, so we reuse it as-is
 rather than duplicating or rewriting it.
+
+/history and /head-to-head both read from match_log.json (written by the
+CLI's sync/backfill commands) rather than ratings.json, since ratings.json
+only ever holds each team's *current* number — match_log.json is the only
+place a rating's history over time actually lives.
 """
 
 import os
@@ -16,7 +21,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
 from elo import match_probabilities
-from storage import load_ratings, get_rating
+from storage import load_ratings, get_rating, load_match_log
 from live_data import fetch_matches, parse_result, get_team_names, DEFAULT_COMPETITION
 
 app = FastAPI(title="Football Predictor Dashboard API")
@@ -46,6 +51,24 @@ class PredictionResponse(BaseModel):
     home_win: float
     draw: float
     away_win: float
+
+
+class HistoryPoint(BaseModel):
+    date: str
+    rating: float
+
+
+class Meeting(BaseModel):
+    date: str
+    competition: str
+    home_team: str
+    away_team: str
+    result: str
+
+
+class HeadToHeadResponse(BaseModel):
+    meetings: list[Meeting]
+    current_prediction: PredictionResponse
 
 
 @app.get("/teams", response_model=list[TeamRating])
@@ -113,3 +136,66 @@ def upcoming(
         ))
 
     return results
+
+
+@app.get("/history/{team}", response_model=list[HistoryPoint])
+def team_history(team: str):
+    """
+    A team's rating after every match it's played, in chronological order
+    — the data behind the rating-trend chart. Returns an empty list for a
+    team with no logged matches yet (e.g. one only ever seen via /predict,
+    never through a synced result).
+    """
+    log = load_match_log()
+    points = []
+
+    for record in log:
+        if record["home_team"] == team:
+            points.append(HistoryPoint(date=record["date"], rating=record["home_rating_after"]))
+        elif record["away_team"] == team:
+            points.append(HistoryPoint(date=record["date"], rating=record["away_rating_after"]))
+
+    points.sort(key=lambda p: p.date)
+    return points
+
+
+@app.get("/head-to-head", response_model=HeadToHeadResponse)
+def head_to_head(team_a: str = Query(...), team_b: str = Query(...)):
+    """
+    Every logged past meeting between two teams, plus today's prediction
+    for them using current ratings. Order in the query doesn't matter —
+    a match is a meeting between these two teams regardless of who was
+    home in it.
+    """
+    log = load_match_log()
+    pair = {team_a, team_b}
+
+    meetings = [
+        Meeting(
+            date=record["date"],
+            competition=record["competition"],
+            home_team=record["home_team"],
+            away_team=record["away_team"],
+            result=record["result"],
+        )
+        for record in log
+        if {record["home_team"], record["away_team"]} == pair
+    ]
+    meetings.sort(key=lambda m: m.date)
+
+    ratings = load_ratings()
+    home_rating = get_rating(ratings, team_a)
+    away_rating = get_rating(ratings, team_b)
+    probs = match_probabilities(home_rating, away_rating)
+
+    current_prediction = PredictionResponse(
+        home_team=team_a,
+        away_team=team_b,
+        home_rating=home_rating,
+        away_rating=away_rating,
+        home_win=probs["home_win"],
+        draw=probs["draw"],
+        away_win=probs["away_win"],
+    )
+
+    return HeadToHeadResponse(meetings=meetings, current_prediction=current_prediction)
