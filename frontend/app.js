@@ -55,14 +55,28 @@ const awaySelect = document.getElementById("away-select");
 const predictForm = document.getElementById("predict-form");
 const predictResult = document.getElementById("predict-result");
 
-function renderProbBar(label, value) {
+function renderProbBar(label, value, isFavorite) {
   const pct = (value * 100).toFixed(1);
   return `
-    <div class="prob-row">
+    <div class="prob-row ${isFavorite ? "is-favorite" : ""}">
       <div class="prob-label">${label}</div>
       <div class="prob-bar-track"><div class="prob-bar-fill" style="width: ${pct}%"></div></div>
       <div class="prob-value">${pct}%</div>
     </div>
+  `;
+}
+
+function renderPrediction(result) {
+  const outcomes = [
+    { label: result.home_team + " win", value: result.home_win },
+    { label: "Draw", value: result.draw },
+    { label: result.away_team + " win", value: result.away_win },
+  ];
+  const maxValue = Math.max(...outcomes.map((o) => o.value));
+
+  return `
+    <h3>${result.home_team} (${result.home_rating}) vs ${result.away_team} (${result.away_rating})</h3>
+    ${outcomes.map((o) => renderProbBar(o.label, o.value, o.value === maxValue)).join("")}
   `;
 }
 
