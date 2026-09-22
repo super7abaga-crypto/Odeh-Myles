@@ -2,6 +2,12 @@ const form = document.querySelector("#userForm");
 const message = document.querySelector("#message");
 const userList = document.querySelector("#userList");
 
+const editForm = document.querySelector("#editForm");
+const editId = document.querySelector("#editId");
+const editName = document.querySelector("#editName");
+const editEmail = document.querySelector("#editEmail");
+const cancelEdit = document.querySelector("#cancelEdit");
+
 form.addEventListener("submit", async function (event) {
     event.preventDefault();
 
@@ -51,45 +57,34 @@ async function loadUsers() {
 
 editButton.textContent = "Edit";
 
-editButton.addEventListener("click", async function () {
-    const newName = prompt("Enter new name:", user.name);
-    const newEmail = prompt("Enter new email:", user.email);
+editButton.addEventListener("click", function () {
+    editId.value = user.id;
+    editName.value = user.name;
+    editEmail.value = user.email;
 
-    if (newName === null || newEmail === null) {
-        return;
-    }
-
-    const response = await fetch(`http://127.0.0.1:8000/users/${user.id}`, {
-        method: "PUT",
-        headers: {
-            "Content-Type": "application/json"
-        },
-        body: JSON.stringify({
-            name: newName,
-            email: newEmail
-        })
-    });
-
-    const data = await response.json();
-
-    if (response.ok) {
-        loadUsers();
-    } else {
-        alert(data.detail);
-    }
+    editForm.style.display = "block";
 });
 
-        const deleteButton = document.createElement("button");
+    const deleteButton = document.createElement("button");
 
         deleteButton.textContent = "Delete";
 
         deleteButton.addEventListener("click", async function () {
-            await fetch(`http://127.0.0.1:8000/users/${user.id}`, {
-                method: "DELETE"
-            });
+    
+    const confirmed = confirm(
+        `Are you sure you want to delete ${user.name}?`
+    );
 
-            loadUsers();
-        });
+    if (!confirmed) {
+        return;
+    }
+
+    await fetch(`http://127.0.0.1:8000/users/${user.id}`, {
+        method: "DELETE"
+    });
+
+    loadUsers();
+});
 
         listItem.appendChild(editButton);
         listItem.appendChild(deleteButton);
@@ -103,3 +98,31 @@ editButton.addEventListener("click", async function () {
 }
 
 loadUsers();
+
+editForm.addEventListener("submit", async function (event) {
+    event.preventDefault();
+
+    const id = editId.value;
+
+    const response = await fetch(`http://127.0.0.1:8000/users/${id}`, {
+        method: "PUT",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify({
+            name: editName.value,
+            email: editEmail.value
+        })
+    });
+
+    const data = await response.json();
+
+    if (response.ok) {
+        editForm.style.display = "none";
+        message.textContent = "User updated successfully!";
+
+        loadUsers();
+    } else {
+        message.textContent = data.detail;
+    }
+});
