@@ -1,12 +1,25 @@
 const form = document.querySelector("#userForm");
 const message = document.querySelector("#message");
 const userList = document.querySelector("#userList");
+const usersHeading = document.querySelector("#users");
+const userCount = document.querySelector("#userCount");
+const editModal = document.querySelector("#editModal");
+const closeModal = document.querySelector("#closeModal");
 
 const editForm = document.querySelector("#editForm");
 const editId = document.querySelector("#editId");
 const editName = document.querySelector("#editName");
 const editEmail = document.querySelector("#editEmail");
 const cancelEdit = document.querySelector("#cancelEdit");
+
+function showMessage(text) {
+    message.textContent = text;
+    message.style.display = "block";
+
+    setTimeout(function () {
+        message.style.display = "none";
+    }, 5000);
+}
 
 form.addEventListener("submit", async function (event) {
     event.preventDefault();
@@ -29,14 +42,17 @@ form.addEventListener("submit", async function (event) {
         const data = await response.json();
 
         if (response.ok) {
-            message.textContent = "User created successfully!";
+            showMessage("User created successfully!");
+            
             form.reset();
+            loadUsers();
+
         } else {
-            message.textContent = data.detail;
+            showMessage(data.detail);
         }
 
     } catch (error) {
-        message.textContent = "Could not connect to the server.";
+        showMessage("Could not connect to the server.");
     }
 });
 
@@ -46,65 +62,76 @@ async function loadUsers() {
 
         const users = await response.json();
 
+        usersHeading.textContent = `Users (${users.length})`;
+        userCount.textContent = users.length;
+
         userList.innerHTML = "";
 
-    users.forEach(function (user) {
-        const listItem = document.createElement("li");
+        if (users.length === 0) {
+            userList.textContent = "No users yet. Create your first user above.";
+            userList.classList.add("empty-message");
+            return;
+        }
 
-        listItem.textContent = `${user.name} - ${user.email} `;
+        userList.classList.remove("empty-message");
 
-        const editButton = document.createElement("button");
+        users.forEach(function (user) {
 
-editButton.textContent = "Edit";
+            const listItem = document.createElement("li");
 
-editButton.addEventListener("click", function () {
-    editId.value = user.id;
-    editName.value = user.name;
-    editEmail.value = user.email;
+            listItem.textContent = `${user.name} - ${user.email} `;
 
-    editForm.style.display = "block";
-});
+            const editButton = document.createElement("button");
 
-    const deleteButton = document.createElement("button");
+            editButton.textContent = "Edit";
 
-        deleteButton.textContent = "Delete";
+            editButton.addEventListener("click", function () {
+            editId.value = user.id;
+            editName.value = user.name;
+            editEmail.value = user.email;
 
-        deleteButton.addEventListener("click", async function () {
-    
-    const confirmed = confirm(
-        `Are you sure you want to delete ${user.name}?`
-    );
+            editModal.style.display = "flex";
+            });
 
-    if (!confirmed) {
-        return;
-    }
+            const deleteButton = document.createElement("button");
 
-    await fetch(`http://127.0.0.1:8000/users/${user.id}`, {
-        method: "DELETE"
-    });
+            deleteButton.textContent = "Delete";
 
-    loadUsers();
-});
+            deleteButton.addEventListener("click", async function () {
 
-        listItem.appendChild(editButton);
-        listItem.appendChild(deleteButton);
+                const confirmed = confirm(
+                    `Are you sure you want to delete ${user.name}?`
+                );
 
-        userList.appendChild(listItem);
-    });
+                if (!confirmed) {
+                    return;
+                }
+
+                await fetch(`http://127.0.0.1:8000/users/${user.id}`, {
+                    method: "DELETE"
+                });
+
+                loadUsers();
+            });
+
+            listItem.appendChild(editButton);
+            listItem.appendChild(deleteButton);
+
+            userList.appendChild(listItem);
+        });
 
     } catch (error) {
         userList.textContent = "Could not load users.";
     }
 }
-
 loadUsers();
 
-editForm.addEventListener("submit", async function (event) {
-    event.preventDefault();
+    editForm.addEventListener("submit", async function (event) {
+        event.preventDefault();
 
-    const id = editId.value;
+        const id = editId.value;
 
-    const response = await fetch(`http://127.0.0.1:8000/users/${id}`, {
+        const response = await fetch(`http://127.0.0.1:8000/users/${id}`, {
         method: "PUT",
         headers: {
             "Content-Type": "application/json"
@@ -115,14 +142,20 @@ editForm.addEventListener("submit", async function (event) {
         })
     });
 
-    const data = await response.json();
+        const data = await response.json();
 
     if (response.ok) {
-        editForm.style.display = "none";
+        editModal.style.display = "none";
         message.textContent = "User updated successfully!";
 
         loadUsers();
     } else {
         message.textContent = data.detail;
     }
+});
+    cancelEdit.addEventListener("click", function () {
+        editModal.style.display = "none";
+});
+    closeModal.addEventListener("click", function () {
+        editModal.style.display = "none";
 });

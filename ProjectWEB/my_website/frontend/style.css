@@ -201,3 +201,102 @@ form button {
 .card h2 {
     margin-top: 0;
 }
+
+.empty-message {
+    text-align: center;
+    padding: 20px;
+    color: #777;
+    font-style: italic;
+}
+
+.stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+.stat-card {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+.stat-card h3 {
+    margin: 0 0 10px;
+    color: #555;
+    font-size: 15px;
+}
+
+.stat-card p {
+    margin: 0;
+    font-size: 28px;
+    font-weight: bold;
+    color: #222;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    background: white;
+    width: 90%;
+    max-width: 450px;
+    padding: 30px;
+    border-radius: 12px;
+    position: relative;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.modal-content h2 {
+    margin-top: 0;
+}
+
+.close-button {
+    position: absolute;
+    top: 12px;
+    right: 15px;
+    background: none;
+    font-size: 28px;
+    color: #555;
+    padding: 5px 10px;
+}
+
+.close-button:hover {
+    color: #000;
+}
+
+#cancelEdit {
+    background: #777;
+    color: white;
+}
+
+#cancelEdit:hover {
+    opacity: 0.8;
+}
+
+#editModal {
+    display: flex;
+}
+
+.notification {
+    margin-top: 15px;
+    padding: 12px 16px;
+    border-radius: 8px;
+    background: #e8f5e9;
+    color: #2e7d32;
+    font-weight: bold;
+    display: none;
+}

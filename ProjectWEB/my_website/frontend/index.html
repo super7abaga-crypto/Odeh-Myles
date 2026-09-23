@@ -26,6 +26,25 @@
         <p>Manage Your Users Easily</p>
     </header>
 
+    <div class="stats">
+
+    <div class="stat-card">
+        <h3>Total Users</h3>
+        <p id="userCount">0</p>
+    </div>
+
+    <div class="stat-card">
+        <h3>System</h3>
+        <p>Online</p>
+    </div>
+
+    <div class="stat-card">
+        <h3>Version</h3>
+        <p>1.0</p>
+    </div>
+
+</div>
+
     <section class="card">
 
     <h2 id="create">Create User</h2>
@@ -44,30 +63,43 @@
     <br><br>
 
     <button type="submit">Create User</button>
-<p id="message"></p>
+</form>
 
-<section class="card">
+<div id="message" class="notification"></div>
 
-    <h2>Edit User</h2>
+<div id="editModal" class="modal">
 
-    <form id="editForm" style="display: none;">
+        <button type="button" id="closeModal" class="close-button">
+            ×
+        </button>
 
-<form id="editForm" style="display: none;">
-    <input type="hidden" id="editId">
+        <h2>Edit User</h2>
 
-    <label for="editName">Name:</label>
-    <input type="text" id="editName" required>
+        <form id="editForm">
 
-    <br><br>
+            <input type="hidden" id="editId">
 
-    <label for="editEmail">Email:</label>
-    <input type="email" id="editEmail" required>
+            <label for="editName">Name:</label>
+            <input type="text" id="editName" required>
 
-    <br><br>
+            <br><br>
 
-    <button type="submit">Save Changes</button>
-    <button type="button" id="cancelEdit">Cancel</button>
-</section>
+            <label for="editEmail">Email:</label>
+            <input type="email" id="editEmail" required>
+
+            <br><br>
+
+            <button type="submit">Save Changes</button>
+
+            <button type="button" id="cancelEdit">
+                Cancel
+            </button>
+
+        </form>
+
+    </div>
+
+</div>
 
 <p id="message"></p>
 
@@ -79,9 +111,9 @@
 
 </section>
 
-        <script src="app.js"></script>
+</div>
 
-    </div>
+<script src="app.js"></script>
 
 </body>
 </html>
