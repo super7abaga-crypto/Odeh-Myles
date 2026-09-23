@@ -2,6 +2,7 @@ from fastapi import FastAPI, HTTPException, Depends
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from sqlalchemy.exc import IntegrityError
+from datetime import datetime
 
 from database import engine, Base, SessionLocal
 import models
@@ -40,6 +41,11 @@ class UserResponse(BaseModel):
     id: int
     name: str
     email: str
+    created_at: datetime | None
+    role: str
+
+    class Config:
+        from_attributes = True
 
     class Config:
         from_attributes = True

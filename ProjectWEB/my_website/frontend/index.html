@@ -45,29 +45,36 @@
 
 </div>
 
-    <section class="card">
+ <section class="card">
 
     <h2 id="create">Create User</h2>
 
     <form id="userForm">
 
-<form id="userForm">
-    <label for="name">Name:</label>
-    <input type="text" id="name" required>
+        <label for="name">Name:</label>
+        <input type="text" id="name" required>
 
-    <br><br>
+        <br><br>
 
-    <label for="email">Email:</label>
-    <input type="email" id="email" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
 
-    <br><br>
+        <br><br>
 
-    <button type="submit">Create User</button>
-</form>
+        <button type="submit">Create User</button>
 
-<div id="message" class="notification"></div>
+    </form>
+
+    <div id="message" class="notification"></div>
+
+</section>
+
+
+<!-- Edit User Modal -->
 
 <div id="editModal" class="modal">
+
+    <div class="modal-content">
 
         <button type="button" id="closeModal" class="close-button">
             ×
@@ -89,6 +96,15 @@
 
             <br><br>
 
+            <label for="editRole">Role:</label>
+
+    <select id="editRole">
+            <option value="User">User</option>
+            <option value="Admin">Admin</option>
+            </select>
+
+            <br><br>
+
             <button type="submit">Save Changes</button>
 
             <button type="button" id="cancelEdit">
@@ -101,15 +117,49 @@
 
 </div>
 
-<p id="message"></p>
+
+<!-- Users -->
 
 <section class="card">
 
     <h2 id="users">Users</h2>
 
+    <input
+        type="text"
+        id="searchInput"
+        placeholder="Search users..."
+    >
+
     <ul id="userList"></ul>
 
 </section>
+
+
+<!-- Delete User Modal -->
+
+<div id="deleteModal" class="modal">
+
+    <div class="modal-content">
+
+        <button type="button" id="closeDeleteModal" class="close-button">
+            ×
+        </button>
+
+        <h2>Delete User?</h2>
+
+        <p id="deleteMessage"></p>
+
+        <button type="button" id="confirmDelete">
+            Delete
+        </button>
+
+        <button type="button" id="cancelDelete">
+            Cancel
+        </button>
+
+    </div>
+
+</div>
 
 </div>
 
