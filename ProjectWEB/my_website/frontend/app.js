@@ -1,7 +1,12 @@
 const form = document.querySelector("#userForm");
 const message = document.querySelector("#message");
+
+const loginForm = document.querySelector("#loginForm");
+const loginMessage = document.querySelector("#loginMessage");
 const userList = document.querySelector("#userList");
 const searchInput = document.querySelector("#searchInput");
+const role = document.querySelector("#role");
+const password = document.querySelector("#password");
 
 let allUsers = [];
 const usersHeading = document.querySelector("#users");
@@ -44,7 +49,9 @@ form.addEventListener("submit", async function (event) {
             },
             body: JSON.stringify({
                 name: name,
-                email: email
+                email: email,
+                role: role.value,
+                password: password.value
             })
         });
 
@@ -134,6 +141,7 @@ function displayUsers(users) {
             editId.value = user.id;
             editName.value = user.name;
             editEmail.value = user.email;
+            editRole.value = user.role;
 
             editModal.style.display = "flex";
         });
@@ -189,7 +197,8 @@ editForm.addEventListener("submit", async function (event) {
         },
         body: JSON.stringify({
             name: editName.value,
-            email: editEmail.value
+            email: editEmail.value,
+            role: editRole.value
         })
     });
 
@@ -240,4 +249,42 @@ searchInput.addEventListener("input", function () {
     });
 
     displayUsers(filteredUsers);
+});
+
+loginForm.addEventListener("submit", async function (event) {
+    event.preventDefault();
+
+    const email = document.querySelector("#loginEmail").value;
+    const password = document.querySelector("#loginPassword").value;
+
+    console.log("LOGIN EMAIL:", email);
+    console.log("LOGIN PASSWORD LENGTH:", password.length);
+
+    try {
+        const response = await fetch("http://127.0.0.1:8000/login", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify({
+                email: email,
+                password: password
+            })
+        });
+
+        const data = await response.json();
+
+        if (response.ok) {
+            loginMessage.textContent =
+                `Welcome, ${data.name}! Login successful.`;
+
+            loginForm.reset();
+        } else {
+            loginMessage.textContent = data.detail;
+        }
+
+    } catch (error) {
+        loginMessage.textContent =
+            "Could not connect to the server.";
+    }
 });

@@ -3,6 +3,9 @@ from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from sqlalchemy.exc import IntegrityError
 from datetime import datetime
+from argon2 import PasswordHasher
+
+password_hasher = PasswordHasher()
 
 from database import engine, Base, SessionLocal
 import models
@@ -32,10 +35,17 @@ Base.metadata.create_all(bind=engine)
 class UserCreate(BaseModel):
     name: str
     email: str
+    role: str
+    password: str
 
 class UserUpdate(BaseModel):
     name: str
     email: str
+    role: str
+
+class LoginRequest(BaseModel):
+    email: str
+    password: str
 
 class UserResponse(BaseModel):
     id: int
@@ -68,7 +78,9 @@ def about():
 def create_user(user: UserCreate, db=Depends(get_db)):
     db_user = models.User(
         name=user.name,
-        email=user.email
+        email=user.email,
+        role=user.role,
+        password_hash=password_hasher.hash(user.password)
     )
 
     db.add(db_user)
@@ -86,6 +98,37 @@ def create_user(user: UserCreate, db=Depends(get_db)):
         )
 
     return db_user
+
+@app.post("/login")
+def login(user: LoginRequest, db=Depends(get_db)):
+    db_user = db.query(models.User).filter(
+        models.User.email == user.email
+    ).first()
+
+    if db_user is None:
+        raise HTTPException(
+            status_code=401,
+            detail="Invalid email or password"
+        )
+
+    try:
+        password_hasher.verify(
+            db_user.password_hash,
+            user.password
+        )
+    except Exception:
+        raise HTTPException(
+            status_code=401,
+            detail="Invalid email or password"
+        )
+
+    return {
+        "message": "Login successful",
+        "user_id": db_user.id,
+        "name": db_user.name,
+        "email": db_user.email,
+        "role": db_user.role
+    }
 
 @app.get("/users", response_model=list[UserResponse])
 def get_users(db=Depends(get_db)):
@@ -130,6 +173,7 @@ def update_user(
 
     db_user.name = user.name
     db_user.email = user.email
+    db_user.role = user.role
 
     try:
         db.commit()
